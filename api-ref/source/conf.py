@@ -93,7 +93,7 @@ html_static_path = ['_static']
 
 # -- Options for PDF output --------------------------------------------------
 latex_documents = [
-('index',
+    ('index',
      'gaussdb_mysql-api-ref.tex',
      u'GaussDB Enterprise-class Distributed Database compatible with MySQL - API Reference',
      u'OpenTelekomCloud', 'manual'),
