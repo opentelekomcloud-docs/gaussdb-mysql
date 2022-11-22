@@ -28,8 +28,6 @@ project = 'GaussDB Enterprise-class Distributed Database compatible with MySQL'
 otcdocs_repo_name = 'opentelekomcloud-docs/gaussdb-mysql'
 # Those variables are required for edit/bug links
 
-
-
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
@@ -93,7 +91,7 @@ html_static_path = ['_static']
 
 # -- Options for PDF output --------------------------------------------------
 latex_documents = [
-('index',
+    ('index',
      'gaussdb_mysql-api-ref.tex',
      u'GaussDB Enterprise-class Distributed Database compatible with MySQL - API Reference',
      u'OpenTelekomCloud', 'manual'),
