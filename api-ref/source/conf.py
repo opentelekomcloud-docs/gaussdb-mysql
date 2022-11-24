@@ -81,7 +81,7 @@ html_theme_options = {
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
 
-html_title = "GaussDB Enterprise-class Distributed Database compatible with MySQL - API Reference"
+html_title = "GaussDB (for MySQL) - API Reference"
 
 
 # Add any paths that contain custom static files (such as style sheets) here,
@@ -93,6 +93,6 @@ html_static_path = ['_static']
 latex_documents = [
     ('index',
      'gaussdb_mysql-api-ref.tex',
-     u'GaussDB Enterprise-class Distributed Database compatible with MySQL - API Reference',
+     u'GaussDB (for MySQL) - API Reference',
      u'OpenTelekomCloud', 'manual'),
 ]
