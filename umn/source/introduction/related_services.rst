@@ -1,0 +1,24 @@
+:original_name: gaussdb_01_0009.html
+
+.. _gaussdb_01_0009:
+
+Related Services
+================
+
+The following figure shows the relationship between GaussDB(for MySQL) and other services.
+
+.. table:: **Table 1** Related services
+
+   +------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | Service Name                 | Description                                                                                                                                                                               |
+   +==============================+===========================================================================================================================================================================================+
+   | Elastic Cloud Service (ECS)  | Enables you to access GaussDB(for MySQL) DB instances through an ECS to reduce application response time and public network traffic fees.                                                 |
+   +------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | Virtual Private Cloud (VPC)  | Isolates your networks and controls access to your GaussDB(for MySQL) DB instances.                                                                                                       |
+   +------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | Object Storage Service (OBS) | Stores automated and manual backups of your GaussDB(for MySQL) DB instances.                                                                                                              |
+   +------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | Cloud Eye                    | Acts as an open monitoring platform that monitors GaussDB(for MySQL) resources in real time. It reports alarms and issues warnings promptly to ensure that services are running properly. |
+   +------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | Cloud Trace Service (CTS)    | Provides records of operations on cloud service resources, enabling you to query, audit, and backtrack operations.                                                                        |
+   +------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

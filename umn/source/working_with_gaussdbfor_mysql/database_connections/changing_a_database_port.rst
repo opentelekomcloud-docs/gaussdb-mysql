@@ -1,0 +1,42 @@
+:original_name: gaussdb_03_0012.html
+
+.. _gaussdb_03_0012:
+
+Changing a Database Port
+========================
+
+Scenarios
+---------
+
+You can change the database port of a GaussDB(for MySQL) DB instance. The change applies to the ports of the primary node and read replicas, and may affect services intermittently.
+
+Procedure
+---------
+
+#. Log in to the management console.
+
+#. Click |image1| in the upper left corner and select a region and a project.
+
+#. Click **Service List**. Under **Database**, click **GaussDB**.
+
+#. On the **Instance Management** page, click the target DB instance. The **Basic Information** page is displayed.
+
+#. In the **Network Information** area, click |image2| in the **Database Port** field.
+
+   The GaussDB(for MySQL) database port ranges from 1025 to 65534, excluding 5342, 5343, 5344, 5345, 12017, 20000, 20201, and 20202, which are occupied by the system and cannot be used.
+
+   -  To submit the change, click |image3|.
+
+      -  In the dialog box, click **Yes**.
+
+         a. If you change the database port of a DB instance, the ports of the primary node and read replicas are also changed accordingly and all of them are rebooted.
+         b. This process takes about 1-5 minutes.
+
+   -  To cancel the change, click |image4|.
+
+#. View the result of the change on the **Basic Information** page.
+
+.. |image1| image:: /_static/images/en-us_image_0000001400783488.png
+.. |image2| image:: /_static/images/en-us_image_0000001451103533.png
+.. |image3| image:: /_static/images/en-us_image_0000001400623556.png
+.. |image4| image:: /_static/images/en-us_image_0000001451183189.png
