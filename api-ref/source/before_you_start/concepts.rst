@@ -11,9 +11,9 @@ Concepts
 
 -  IAM User
 
-   An IAM user is created using an account to use cloud services. Each IAM user has its own identity credentials (password and access keys).
+   An IAM domain is created using an account to use cloud services. Each IAM user has its own identity credentials (password and access keys).
 
-   API authentication requires information such as the account name, username, and password.
+   API authentication requires information such as the domain name, username, and password.
 
 -  Region
 
@@ -28,7 +28,7 @@ Concepts
    Projects group and isolate resources (including compute, storage, and network resources) across physical regions. A default project is provided for each region, and subprojects can be created under each default project. Users can be granted permissions to access all resources in a specific project. For more refined access control, create subprojects under a project and purchase resources in the subprojects. Users can then be assigned permissions to access only specific resources in the subprojects.
 
 
-   .. figure:: /_static/images/en-us_image_0000001422968749.gif
+   .. figure:: /_static/images/en-us_image_0000001477110589.gif
       :alt: **Figure 1** Project isolating model
 
       **Figure 1** Project isolating model

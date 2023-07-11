@@ -7,7 +7,8 @@ GaussDB (for MySQL) - API Reference
 
    before_you_start/index
    api_overview
-   calling_apis/index
-   api/index
+   api_usage_guidelines/index
+   apis_recommended/index
+   apis_unavailable_soon/index
    appendix/index
    change_history

@@ -5,4 +5,4 @@
 API Calling
 ===========
 
-GaussDB(for MySQL) supports Representational State Transfer (REST) APIs, allowing you to call APIs using HTTPS. For details about API calling, see :ref:`Calling APIs <gaussdb_03_0000>`.
+GaussDB(for MySQL) supports Representational State Transfer (REST) APIs, allowing you to call APIs using HTTPS. For details about API calling, see :ref:`API Usage Guidelines <gaussdb_03_0000>`.
