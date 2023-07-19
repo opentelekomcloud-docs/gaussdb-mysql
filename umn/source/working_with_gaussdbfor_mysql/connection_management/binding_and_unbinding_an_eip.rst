@@ -33,7 +33,7 @@ Binding an EIP
 
 #. On the **Instance Management** page, click the target DB instance. The **Basic Information** page is displayed.
 
-#. In the **Network Information** area, click **Bind** in the **Public IP Address for Write** field.
+#. In the **Network Information** area, click **Bind** in the **Public IP Address (EIP)** field.
 
 #. In the displayed dialog box, select an EIP and click **OK**.
 
@@ -53,8 +53,8 @@ Unbinding an EIP
 ----------------
 
 #. On the **Instance Management** page, click the DB instance that has been bound with an EIP. The **Basic Information** page is displayed.
-#. In the **Network Information** area, click **Unbind** in the **Public IP Address for Write** field.
+#. In the **Network Information** area, click **Unbind** in the **Public IP Address (EIP)** field.
 #. In the displayed dialog box, click **Yes**.
 #. To bind an EIP to the DB instance again, see :ref:`Binding an EIP <gaussdb_03_0011__en-us_topic_0171122283_section3199593620428>`.
 
-.. |image1| image:: /_static/images/en-us_image_0000001400783488.png
+.. |image1| image:: /_static/images/en-us_image_0000001352219100.png

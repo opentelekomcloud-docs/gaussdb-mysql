@@ -8,7 +8,7 @@ Deleting a Parameter Template
 Scenarios
 ---------
 
-You can delete a custom parameter template that is no longer in use.
+You can delete a custom parameter template that is no longer needed.
 
 .. important::
 
@@ -24,4 +24,4 @@ Procedure
 #. On the **Parameter Template Management** page, click **Custom Templates**. Locate the parameter template to be deleted and choose **More** > **Delete** in the **Operation** column.
 #. In the displayed dialog box, click **Yes**.
 
-.. |image1| image:: /_static/images/en-us_image_0000001400783488.png
+.. |image1| image:: /_static/images/en-us_image_0000001352219100.png

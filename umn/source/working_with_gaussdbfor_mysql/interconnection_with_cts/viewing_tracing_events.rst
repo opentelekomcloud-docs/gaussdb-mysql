@@ -17,7 +17,7 @@ Procedure
 
 #. Log in to the management console.
 
-#. Choose **Management & Governance** > **Cloud Trace Service**.
+#. Choose **Management & Deployment** > **Cloud Trace Service**.
 
 #. Choose **Trace List** in the navigation pane on the left.
 
@@ -43,4 +43,4 @@ Procedure
 
    For details about key fields in the trace structure, see sections "Trace Structure" and "Trace Examples" in the *Cloud Trace Service User Guide*.
 
-.. |image1| image:: /_static/images/en-us_image_0192953998.png
+.. |image1| image:: /_static/images/en-us_image_0000001472729081.png

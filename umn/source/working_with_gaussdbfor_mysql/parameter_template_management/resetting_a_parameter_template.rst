@@ -19,8 +19,4 @@ Procedure
 #. On the **Parameter Template Management** page, click **Custom Templates**. Locate the target parameter template and choose **More** > **Reset** in the **Operation** column.
 #. Click **Yes**.
 
-   .. note::
-
-      After you reset a parameter template, click the DB instance to which the parameter template is applied to view the status of the parameter template. On the displayed **Basic Information** page, if the status of the parameter template is **Pending reboot**, you must reboot the DB instance for the reset to take effect.
-
-.. |image1| image:: /_static/images/en-us_image_0000001400783488.png
+.. |image1| image:: /_static/images/en-us_image_0000001352219100.png

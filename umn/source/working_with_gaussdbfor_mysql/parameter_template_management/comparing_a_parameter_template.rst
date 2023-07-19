@@ -8,9 +8,9 @@ Comparing a Parameter Template
 Scenarios
 ---------
 
-You can compare DB instance parameters with a parameter template that uses the same DB engine to understand the differences of parameter settings.
+You can compare DB instance parameters with a parameter template that uses the same DB engine to inspect the differences of parameter settings.
 
-You can also compare default parameter templates that use the same DB engine to understand the differences of parameter settings.
+You can also compare default parameter templates that use the same DB engine to inspect the differences of parameter settings.
 
 Comparing Instance Parameters with a Parameter Template
 -------------------------------------------------------
@@ -37,5 +37,5 @@ Comparing Parameter Templates
    -  If their settings are different, the parameter names and values of both parameter templates are displayed.
    -  If their settings are the same, no data is displayed.
 
-.. |image1| image:: /_static/images/en-us_image_0000001400783488.png
-.. |image2| image:: /_static/images/en-us_image_0000001400783488.png
+.. |image1| image:: /_static/images/en-us_image_0000001352219100.png
+.. |image2| image:: /_static/images/en-us_image_0000001352219100.png

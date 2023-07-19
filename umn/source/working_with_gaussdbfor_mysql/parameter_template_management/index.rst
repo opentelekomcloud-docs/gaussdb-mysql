@@ -7,7 +7,7 @@ Parameter Template Management
 
 -  :ref:`Creating a Parameter Template <gaussdb_03_0072>`
 -  :ref:`Modifying a Parameter Template <gaussdb_08_0112>`
--  :ref:`Exporting a Parameter Template <gaussdb_08_0042>`
+-  :ref:`Exporting Parameters <gaussdb_08_0042>`
 -  :ref:`Comparing a Parameter Template <gaussdb_08_0012>`
 -  :ref:`Viewing Parameter Change History <gaussdb_05_0099>`
 -  :ref:`Replicating a Parameter Template <gaussdb_08_0014>`
@@ -23,7 +23,7 @@ Parameter Template Management
 
    creating_a_parameter_template
    modifying_a_parameter_template
-   exporting_a_parameter_template
+   exporting_parameters
    comparing_a_parameter_template
    viewing_parameter_change_history
    replicating_a_parameter_template

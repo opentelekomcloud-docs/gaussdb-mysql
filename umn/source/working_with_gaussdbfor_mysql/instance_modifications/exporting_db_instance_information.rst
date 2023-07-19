@@ -28,7 +28,7 @@ Exporting Information About Selected DB Instances
 #. On the **Instance Management** page, select the DB instances to be exported and click |image4| in the upper right corner of the page. In the displayed dialog box, select the items to be exported and click **Export**.
 #. After the export task is complete, a .csv file is generated locally.
 
-.. |image1| image:: /_static/images/en-us_image_0000001400783488.png
-.. |image2| image:: /_static/images/en-us_image_0000001451103469.png
-.. |image3| image:: /_static/images/en-us_image_0000001400783488.png
-.. |image4| image:: /_static/images/en-us_image_0000001451183121.png
+.. |image1| image:: /_static/images/en-us_image_0000001352219100.png
+.. |image2| image:: /_static/images/en-us_image_0000001403138737.png
+.. |image3| image:: /_static/images/en-us_image_0000001352219100.png
+.. |image4| image:: /_static/images/en-us_image_0000001352379048.png

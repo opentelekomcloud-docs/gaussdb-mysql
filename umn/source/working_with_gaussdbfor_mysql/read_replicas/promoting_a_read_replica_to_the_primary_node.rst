@@ -42,7 +42,7 @@ Each read replica has a failover priority that determines the order in which it 
 GaussDB(for MySQL) selects a read replica and promotes it to the new primary node as follows:
 
 #. Find all read replicas that are available for a promotion.
-#. Fine one or more read replicas with the highest priority.
-#. Promote an arbitrary read replica with the highest priority. If the promotion fails due to network faults or abnormal replication status, GaussDB(for MySQL) attempts to promote another read replica by priority until the promotion is successful.
+#. Find one or more read replicas with the highest priority.
+#. If the promotion fails due to network faults or abnormal replication status, GaussDB(for MySQL) attempts to promote another read replica by priority until the promotion is successful.
 
-.. |image1| image:: /_static/images/en-us_image_0000001400783488.png
+.. |image1| image:: /_static/images/en-us_image_0000001352219100.png

@@ -30,4 +30,4 @@ Procedure
 #. On the **Instance Management** page, locate the DB instance to be deleted and click **More** > **Delete** in the **Operation** column.
 #. In the displayed dialog box, click **Yes**. Refresh the **Instance Management** page later to check that the deletion is successful.
 
-.. |image1| image:: /_static/images/en-us_image_0000001400783488.png
+.. |image1| image:: /_static/images/en-us_image_0000001352219100.png

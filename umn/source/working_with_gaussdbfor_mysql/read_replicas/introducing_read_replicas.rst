@@ -28,7 +28,7 @@ Constraints
 
 -  A DB instance contains up to 15 read replicas.
 -  Read replicas do not support backup settings or temporary backups.
--  Read replicas do not support instance creation at any time point or restoration from backup files to the original instance to overwrite data.
+-  Read replicas do not support instance creation at any point of time or restoration from backup files to the original instance to overwrite data.
 -  Data cannot be migrated to read replicas.
 -  Read replicas do not support database creation and deletion.
 -  Read replicas do not support account creation. You can create accounts only on the primary node.

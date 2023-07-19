@@ -19,7 +19,7 @@ Process
 
 .. _gaussdb_02_0016__fig138110377499:
 
-.. figure:: /_static/images/en-us_image_0000001401103272.png
+.. figure:: /_static/images/en-us_image_0000001352379000.png
    :alt: **Figure 1** Connecting to a DB instance over a public network
 
    **Figure 1** Connecting to a DB instance over a public network

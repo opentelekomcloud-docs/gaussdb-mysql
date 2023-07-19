@@ -15,7 +15,7 @@ Procedure
    Find the `link <https://dev.mysql.com/downloads/file/?id=496982>`__ to the required version on the download page. The mysql-community-client-8.0.21-1.el6.x86_64 is used as an example in the following.
 
 
-   .. figure:: /_static/images/en-us_image_0000001400783516.png
+   .. figure:: /_static/images/en-us_image_0000001352379056.png
       :alt: **Figure 1** Download
 
       **Figure 1** Download
