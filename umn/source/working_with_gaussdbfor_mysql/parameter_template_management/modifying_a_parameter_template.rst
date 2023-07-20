@@ -36,7 +36,7 @@ Modifying Parameter Template Parameters
    -  To cancel the modifications, click **Cancel**.
    -  To preview the modifications, click **Preview**.
 
-#. After the parameters are modified, you can click **Change History** to view the modification details.
+#. After the parameters have been modified, you can click **Change History** to view the modification details.
 
    .. important::
 
@@ -62,12 +62,10 @@ Modifying Instance Parameters
 
    .. important::
 
-      After you modify instance parameters, the modifications immediately take effect for the DB instance.
-
       Check the value in the **Effective upon Reboot** column.
 
-      -  If the value is **Yes** and the DB instance status on the **Instance Management** page is **Pending reboot**, you must reboot the DB instance for the modifications to take effect.
-      -  If the value is **No**, the modifications take effect immediately.
+      -  If the value is **Yes** and the DB instance status on the **Instance Management** page is **Pending reboot**, you must reboot the DB instance for the modifications of this parameter to take effect.
+      -  If the value is **No**, the modification of this parameter takes effect immediately.
 
    -  To save the modifications, click **Save**.
    -  To cancel the modifications, click **Cancel**.
@@ -75,5 +73,5 @@ Modifying Instance Parameters
 
    After parameters are modified, you can click **Change History** to view parameter modification details.
 
-.. |image1| image:: /_static/images/en-us_image_0000001400783488.png
-.. |image2| image:: /_static/images/en-us_image_0000001400783488.png
+.. |image1| image:: /_static/images/en-us_image_0000001352219100.png
+.. |image2| image:: /_static/images/en-us_image_0000001352219100.png

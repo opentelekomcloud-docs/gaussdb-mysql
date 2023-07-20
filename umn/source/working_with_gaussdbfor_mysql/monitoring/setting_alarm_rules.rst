@@ -37,5 +37,5 @@ Procedure
 
    For operation details, see the *Cloud Eye User Guide*.
 
-.. |image1| image:: /_static/images/en-us_image_0000001400943280.png
-.. |image2| image:: /_static/images/en-us_image_0000001451183173.png
+.. |image1| image:: /_static/images/en-us_image_0000001403218685.png
+.. |image2| image:: /_static/images/en-us_image_0000001352538844.png

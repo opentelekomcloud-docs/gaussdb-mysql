@@ -26,7 +26,7 @@ Procedure
 
 #. On the **Instance Management** page, click the target DB instance.
 
-#. In the **Network Information** area, click **Bind** in the Private IP Address for Write field.
+#. In the **Network Information** area, click **Bind** in the Private IP Address field.
 
 #. In the displayed dialog box, select an EIP and click **OK**.
 
@@ -38,4 +38,4 @@ Procedure
 
 #. On the **EIPs** page, view the EIP that has been bound to the DB instance.
 
-.. |image1| image:: /_static/images/en-us_image_0000001400783488.png
+.. |image1| image:: /_static/images/en-us_image_0000001352219100.png

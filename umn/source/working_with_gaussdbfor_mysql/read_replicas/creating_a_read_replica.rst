@@ -26,11 +26,11 @@ Procedure
 
 #. On the **Instance Management** page, locate the target DB instance and choose **More** > **Create Read Replica** in the **Operation** column.
 
-   Alternatively, click the target DB instance. In the topology on the **Basic Information** page, click |image2| to create read replicas.
+   Alternatively, click the target DB instance. In the **DB Instance Topology** area on the **Basic Information** page, click |image2| to create read replicas.
 
 #. On the displayed page, specify **Failover Priority** and **Quantity** and then click **Create Now**.
 
 #. After read replicas are created, you can manage them following the instructions provided in :ref:`Managing a Read Replica <gaussdb_03_0112>`.
 
-.. |image1| image:: /_static/images/en-us_image_0000001400783488.png
-.. |image2| image:: /_static/images/en-us_image_0000001451023269.png
+.. |image1| image:: /_static/images/en-us_image_0000001352219100.png
+.. |image2| image:: /_static/images/en-us_image_0000001403218753.png

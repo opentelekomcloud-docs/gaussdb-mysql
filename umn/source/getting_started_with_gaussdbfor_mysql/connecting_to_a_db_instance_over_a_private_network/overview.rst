@@ -19,7 +19,7 @@ Process
 
 .. _gaussdb_02_0006__fig138110377499:
 
-.. figure:: /_static/images/en-us_image_0000001400783456.png
+.. figure:: /_static/images/en-us_image_0000001402979149.png
    :alt: **Figure 1** Connecting to a DB instance over a private network
 
    **Figure 1** Connecting to a DB instance over a private network
@@ -30,7 +30,7 @@ Process
    -  If the ECS and DB instance are in the same security group, they can communicate with each other by default. No security group rule needs to be configured. Go to :ref:`Step 3: Connect to a DB Instance Over a Private Network <gaussdb_02_0009>`.
    -  If the ECS and DB instance are in different security groups, you need to configure security group rules for the ECS and DB instance, respectively.
 
-      -  DB instance: Configure an inbound rule for the security group with which the DB instance is associated.
-      -  ECS: The default security group rule allows all outgoing data packets. In this scenario, you do not need to configure a security rule for the ECS. If not all outbound traffic is allowed in the security group, you need to configure an outbound rule for the ECS.
+      -  DB instance: Configure an inbound rule for the security group to which the DB instance is associated.
+      -  ECS: The default security group rule allows all outgoing data packets. In this scenario, you do not need to configure a security group rule for the ECS. If not all outbound traffic is allowed in the security group, you need to configure an outbound rule for the ECS.
 
 -  :ref:`Step 3: Connect to a DB instance over a private network. <gaussdb_02_0009>` You can connect to the DB instance through a common connection, or an SSL connection for enhanced security. SSL connections are encrypted.

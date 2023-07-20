@@ -2,8 +2,8 @@
 
 .. _gaussdb_03_0010:
 
-Database Connections
-====================
+Connection Management
+=====================
 
 -  :ref:`Binding and Unbinding an EIP <gaussdb_03_0011>`
 -  :ref:`Changing a Database Port <gaussdb_03_0012>`

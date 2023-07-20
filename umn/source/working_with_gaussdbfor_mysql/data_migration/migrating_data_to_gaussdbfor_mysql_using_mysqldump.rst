@@ -8,7 +8,7 @@ Migrating Data to GaussDB(for MySQL) Using mysqldump
 Preparing for Data Migration
 ----------------------------
 
-GaussDB(for MySQL) supports public accessibility. You can access GaussDB(for MySQL) through an ECS or EIP.
+GaussDB(for MySQL) supports public accessibility. You can access GaussDB(for MySQL) through a private network or EIP.
 
 #. Prepare an ECS in the same VPC subnet as GaussDB(for MySQL) or prepare a device for accessing GaussDB(for MySQL) over a public network.
 
@@ -27,7 +27,7 @@ GaussDB(for MySQL) supports public accessibility. You can access GaussDB(for MyS
 
    .. note::
 
-      The MySQL client version must be the same as that installed on the GaussDB(for MySQL) DB instance. The MySQL database or client provides the mysqldump and mysql tools by default.
+      The version of the GaussDB(for MySQL) client must be the same as or later than that of the GaussDB(for MySQL) server. The MySQL database or client provides the mysqldump and mysql tools by default.
 
 Exporting Data
 --------------

@@ -33,4 +33,4 @@ Procedure
 
    After the parameter template applies to DB instances successfully, you can view the application records by referring to :ref:`Viewing Application Records of a Parameter Template <gaussdb_05_0098>`.
 
-.. |image1| image:: /_static/images/en-us_image_0000001400783488.png
+.. |image1| image:: /_static/images/en-us_image_0000001352219100.png

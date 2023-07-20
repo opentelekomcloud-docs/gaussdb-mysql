@@ -33,4 +33,4 @@ Procedure
    -  The template name must consist of 1 to 64 characters. It can contain only uppercase letters, lowercase letters, digits, hyphens (-), underscores (_), and periods (.).
    -  The description consists of a maximum of 256 characters and cannot contain the carriage return character or the following special characters: >!<"&'=
 
-.. |image1| image:: /_static/images/en-us_image_0000001400783488.png
+.. |image1| image:: /_static/images/en-us_image_0000001352219100.png

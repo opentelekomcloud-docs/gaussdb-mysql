@@ -37,4 +37,4 @@ Viewing Log Details
 
    You can view the slow query log records of a specified execution statement type or a specific time period.
 
-.. |image1| image:: /_static/images/en-us_image_0000001400783488.png
+.. |image1| image:: /_static/images/en-us_image_0000001352219100.png

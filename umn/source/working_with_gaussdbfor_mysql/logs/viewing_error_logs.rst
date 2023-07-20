@@ -27,4 +27,4 @@ Viewing Log Details
       -  FATAL
       -  NOTE
 
-.. |image1| image:: /_static/images/en-us_image_0000001400783488.png
+.. |image1| image:: /_static/images/en-us_image_0000001352219100.png

@@ -16,4 +16,4 @@ Procedure
 #. Click the target DB instance to go to the **Basic Information** page.
 #. At the bottom of the **Basic Information** page, you can view and manage all read replicas associated with the DB instance.
 
-.. |image1| image:: /_static/images/en-us_image_0000001400783488.png
+.. |image1| image:: /_static/images/en-us_image_0000001352219100.png

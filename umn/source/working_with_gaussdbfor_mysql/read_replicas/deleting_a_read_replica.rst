@@ -37,4 +37,4 @@ Procedure
 
 #. In the displayed dialog box, click **Yes**. Refresh the **Instance Management** page later to check that the deletion is successful.
 
-.. |image1| image:: /_static/images/en-us_image_0000001400783488.png
+.. |image1| image:: /_static/images/en-us_image_0000001352219100.png

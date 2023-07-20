@@ -8,7 +8,12 @@ Changing a Database Port
 Scenarios
 ---------
 
-You can change the database port of a GaussDB(for MySQL) DB instance. The change applies to the ports of the primary node and read replicas, and may affect services intermittently.
+You can change the database port of a GaussDB(for MySQL) instance. The change applies to the ports of the primary node and read replicas, and may affect services intermittently.
+
+Constraints
+-----------
+
+The port number of the proxy instance is independent of that of the instance. Changing the port number of the DB instance does not change the port number of the proxy instance.
 
 Procedure
 ---------
@@ -36,7 +41,7 @@ Procedure
 
 #. View the result of the change on the **Basic Information** page.
 
-.. |image1| image:: /_static/images/en-us_image_0000001400783488.png
-.. |image2| image:: /_static/images/en-us_image_0000001451103533.png
-.. |image3| image:: /_static/images/en-us_image_0000001400623556.png
-.. |image4| image:: /_static/images/en-us_image_0000001451183189.png
+.. |image1| image:: /_static/images/en-us_image_0000001352219100.png
+.. |image2| image:: /_static/images/en-us_image_0000001352378996.png
+.. |image3| image:: /_static/images/en-us_image_0000001352538852.png
+.. |image4| image:: /_static/images/en-us_image_0000001403138693.png

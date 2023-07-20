@@ -26,7 +26,7 @@ Procedure
    -  After you submit the modification, you can view the new description in the **Description** column.
    -  The description consists of 256 characters but cannot contain the following special characters: >!<"&'=
 
-.. |image1| image:: /_static/images/en-us_image_0000001400783488.png
-.. |image2| image:: /_static/images/en-us_image_0000001400943340.png
-.. |image3| image:: /_static/images/en-us_image_0000001401103308.png
-.. |image4| image:: /_static/images/en-us_image_0000001451183233.png
+.. |image1| image:: /_static/images/en-us_image_0000001352219100.png
+.. |image2| image:: /_static/images/en-us_image_0000001352379036.png
+.. |image3| image:: /_static/images/en-us_image_0000001402858853.png
+.. |image4| image:: /_static/images/en-us_image_0000001403138721.png

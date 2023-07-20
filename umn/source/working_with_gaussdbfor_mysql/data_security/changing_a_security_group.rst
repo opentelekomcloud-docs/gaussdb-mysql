@@ -24,8 +24,8 @@ Procedure
 
 #. Click |image5| in the upper right corner on the **Basic Information** page to view the result of the change. This process takes about 1 to 3 minutes.
 
-.. |image1| image:: /_static/images/en-us_image_0000001400783488.png
-.. |image2| image:: /_static/images/en-us_image_0000001400783432.png
-.. |image3| image:: /_static/images/en-us_image_0000001451103505.png
-.. |image4| image:: /_static/images/en-us_image_0000001451023297.png
-.. |image5| image:: /_static/images/en-us_image_0000001451183161.png
+.. |image1| image:: /_static/images/en-us_image_0000001352219100.png
+.. |image2| image:: /_static/images/en-us_image_0000001403138685.png
+.. |image3| image:: /_static/images/en-us_image_0000001403138681.png
+.. |image4| image:: /_static/images/en-us_image_0000001403218681.png
+.. |image5| image:: /_static/images/en-us_image_0000001402979141.png

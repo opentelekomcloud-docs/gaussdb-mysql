@@ -49,7 +49,7 @@ Using MySQL-Front to Connect to a DB Instance
 #. In the displayed dialog box, click **New**.
 
 
-   .. figure:: /_static/images/en-us_image_0000001401103264.png
+   .. figure:: /_static/images/en-us_image_0000001352219096.png
       :alt: **Figure 1** Connection management
 
       **Figure 1** Connection management
@@ -58,7 +58,7 @@ Using MySQL-Front to Connect to a DB Instance
 
    .. _gaussdb_02_0009__en-us_topic_0171122303_fig4664143131112:
 
-   .. figure:: /_static/images/en-us_image_0000001451103529.png
+   .. figure:: /_static/images/en-us_image_0000001352379004.png
       :alt: **Figure 2** Adding an account
 
       **Figure 2** Adding an account
@@ -87,7 +87,7 @@ Using MySQL-Front to Connect to a DB Instance
 #. In the displayed window, select the connection that you have created and click **Open**. If the connection information is correct, the DB instance is successfully connected.
 
 
-   .. figure:: /_static/images/en-us_image_0000001451183185.png
+   .. figure:: /_static/images/en-us_image_0000001402858817.png
       :alt: **Figure 3** Opening a session
 
       **Figure 3** Opening a session
@@ -139,5 +139,5 @@ SSL Connection
 
       Enter password:
 
-.. |image1| image:: /_static/images/en-us_image_0000001400783488.png
-.. |image2| image:: /_static/images/en-us_image_0000001451343169.png
+.. |image1| image:: /_static/images/en-us_image_0000001352219100.png
+.. |image2| image:: /_static/images/en-us_image_0000001402979157.png

@@ -37,4 +37,4 @@ Procedure
 
    A full backup is triggered after the new DB instance is created.
 
-.. |image1| image:: /_static/images/en-us_image_0000001400783488.png
+.. |image1| image:: /_static/images/en-us_image_0000001352219100.png

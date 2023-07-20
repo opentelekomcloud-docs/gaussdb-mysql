@@ -11,7 +11,7 @@ Password Strength Requirements
 GaussDB(for MySQL) has a password security policy for newly created database users. Passwords must:
 
 -  Consist of at least eight characters.
--  Contain at least one uppercase letter, one lowercase letter, one digit, and one special character.
+-  Contain at least three types of the following: uppercase letters, lowercase letters, digits, and special characters.
 
 When you create DB instances, your password strength is checked. You can modify the password strength as user **root**. For security reasons, you are advised to use a password that is at least as strong as the default one.
 

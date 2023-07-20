@@ -7,13 +7,13 @@ Product Benefits
 
 GaussDB(for MySQL) is an enterprise-class cloud database that uses a decoupled compute and storage architecture.
 
-Requirements and Pain Points
-----------------------------
+Requirements
+------------
 
-.. table:: **Table 1** Requirements and pain points
+.. table:: **Table 1** Requirements
 
    +---------------------------------+---------------------------------------------------------------+
-   | Requirements and Pain Points    | Description                                                   |
+   | Requirements                    | Description                                                   |
    +=================================+===============================================================+
    | MySQL compatibility             | No need to reconstruct original MySQL applications            |
    +---------------------------------+---------------------------------------------------------------+

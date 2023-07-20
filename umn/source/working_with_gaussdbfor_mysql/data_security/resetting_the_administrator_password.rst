@@ -68,5 +68,5 @@ Method 2
    -  To submit the new password, click **OK**.
    -  To cancel the reset, click **Cancel**.
 
-.. |image1| image:: /_static/images/en-us_image_0000001400783488.png
-.. |image2| image:: /_static/images/en-us_image_0000001400783488.png
+.. |image1| image:: /_static/images/en-us_image_0000001352219100.png
+.. |image2| image:: /_static/images/en-us_image_0000001352219100.png
