@@ -12,7 +12,6 @@ This API is used to enable database proxy in ELB mode. Before using this API:
 
 -  Learn how to :ref:`authorize and authenticate <gaussdb_03_0001>` it.
 -  Obtain the required :ref:`region and endpoint <gaussdb_00_0003>`.
--  Database proxy is unavailable for DB instances in a DeC.
 
 URI
 ---
@@ -62,6 +61,8 @@ Request Parameters
    |                   |                 |                                                                                  | -  **readonly**                                                                                                                                                                                                                                              |
    +-------------------+-----------------+----------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | nodes_read_weight | No              | Array of :ref:`NodesWeight <creategaussmysqlproxy__request_nodesweight>` objects | Read weight of the node.                                                                                                                                                                                                                                     |
+   |                   |                 |                                                                                  |                                                                                                                                                                                                                                                              |
+   |                   |                 |                                                                                  | If **proxy_mode** is set to **readonly**, you can assign weights only for read replicas.                                                                                                                                                                     |
    +-------------------+-----------------+----------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. _creategaussmysqlproxy__request_nodesweight:

@@ -132,7 +132,8 @@ Success.
        "availability_instance_quota" : 1,
        "availability_vcpus_quota" : 4,
        "availability_ram_quota" : 8
-     } ]
+     } ],
+     "total_count":1
    }
 
 Status Code
