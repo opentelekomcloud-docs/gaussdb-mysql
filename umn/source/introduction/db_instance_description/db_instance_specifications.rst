@@ -12,7 +12,8 @@ GaussDB(for MySQL) instance specifications are listed in the following table and
    ======================= ===== ===========
    Instance Specifications vCPUs Memory (GB)
    ======================= ===== ===========
-   Dedicated Edition       4     32
+   Dedicated               2     8
+   \                       4     32
    \                       8     64
    \                       16    128
    \                       32    256
@@ -24,7 +25,8 @@ GaussDB(for MySQL) instance specifications are listed in the following table and
    ======================= ===== ===========
    Instance Specifications vCPUs Memory (GB)
    ======================= ===== ===========
-   Dedicated Edition       4     32
+   Dedicated               2     8
+   \                       4     32
    \                       8     64
    \                       16    128
    \                       32    256

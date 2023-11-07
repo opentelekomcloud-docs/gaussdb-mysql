@@ -32,3 +32,11 @@ Importing the Root Certificate to the Linux OS
 ----------------------------------------------
 
 You can use a connection tool (such as WinSCP or PuTTY) to upload the certificate to any directory on a Linux OS.
+
+Example:
+
+
+.. figure:: /_static/images/en-us_image_0000001460761526.png
+   :alt: **Figure 1** Importing a certificate
+
+   **Figure 1** Importing a certificate
