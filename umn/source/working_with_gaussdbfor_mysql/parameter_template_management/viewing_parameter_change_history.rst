@@ -23,7 +23,7 @@ Viewing Change History of DB Instance Parameters
 
 #. Click **Service List**. Under **Database**, click **GaussDB**.
 
-#. On the **Instance Management** page, click the target DB instance.
+#. On the **Instances** page, click the target DB instance.
 
 #. In the navigation pane on the left, choose **Parameters**. On the displayed page, click **Change History**.
 
@@ -40,7 +40,7 @@ Viewing Change History of a Parameter Template
 
 #. Click **Service List**. Under **Database**, click **GaussDB**.
 
-#. Choose **Parameter Template Management** in the navigation pane on the left. On the **Custom Templates** page, click the target parameter template.
+#. Choose **Parameter Templates** in the navigation pane on the left. On the **Custom Templates** page, click the target parameter template.
 
 #. On the displayed page, choose **Change History** in the navigation pane on the left.
 

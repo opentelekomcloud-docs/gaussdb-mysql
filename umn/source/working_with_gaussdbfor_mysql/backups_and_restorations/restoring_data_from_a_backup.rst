@@ -19,7 +19,7 @@ Procedure
 
 #. Click **Service List**. Under **Database**, click **GaussDB**.
 
-#. On the **Backup Management** page, select the backup to be restored and click **Restore** in the **Operation** column.
+#. On the **Backups** page, select the backup to be restored and click **Restore** in the **Operation** column.
 
 #. Click **OK**. Currently, you can only restore data to a new DB instance.
 

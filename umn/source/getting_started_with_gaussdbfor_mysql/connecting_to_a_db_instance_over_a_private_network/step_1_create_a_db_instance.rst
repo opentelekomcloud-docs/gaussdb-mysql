@@ -16,7 +16,7 @@ Procedure
 #. Log in to the management console.
 #. Click |image1| in the upper left corner and select a region and a project.
 #. Click **Service List**. Under **Database**, click **GaussDB**.
-#. On the **Instance Management** page, click **Create DB Instance**.
+#. On the **Instances** page, click **Create DB Instance**.
 #. On the displayed page, configure parameters about the DB instance specifications. Then, click **Create Now**.
 
    .. table:: **Table 1** Basic information
@@ -24,7 +24,7 @@ Procedure
       +-----------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
       | Parameter                         | Description                                                                                                                                                                                                                                        |
       +===================================+====================================================================================================================================================================================================================================================+
-      | Region                            | A region where the tenant is located. You can change it on the creation page, or go back to the **Instance Management** page and change it in the upper left corner.                                                                               |
+      | Region                            | A region where the tenant is located. You can change it on the creation page, or go back to the **Instances** page and change it in the upper left corner.                                                                                         |
       |                                   |                                                                                                                                                                                                                                                    |
       |                                   | .. important::                                                                                                                                                                                                                                     |
       |                                   |                                                                                                                                                                                                                                                    |
@@ -118,7 +118,7 @@ Procedure
    -  If you need to modify your settings, click **Previous**.
    -  If you do not need to modify your settings, click **Submit**.
 
-#. To view and manage DB instances, go to the **Instance Management** page.
+#. To view and manage DB instances, go to the **Instances** page.
 
    -  During the creation process, the DB instance status is **Creating**. When the status of the created instance is **Available**, the DB instance can be used.
 

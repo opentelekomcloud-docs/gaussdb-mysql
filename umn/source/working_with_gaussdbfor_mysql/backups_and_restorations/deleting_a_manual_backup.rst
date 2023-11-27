@@ -23,7 +23,7 @@ Procedure
 
 #. Click **Service List**. Under **Database**, click **GaussDB**.
 
-#. In the navigation pane on the left, choose **Backup Management**. On the displayed page, locate the manual backup to be deleted and click **Delete** in the **Operation** column.
+#. In the navigation pane on the left, choose **Backups**. On the displayed page, locate the manual backup to be deleted and click **Delete** in the **Operation** column.
 
    The following backups cannot be deleted:
 

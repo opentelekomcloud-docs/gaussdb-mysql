@@ -24,7 +24,7 @@ Procedure
 
 #. Click **Service List**. Under **Database**, click **GaussDB**.
 
-#. On the **Instance Management** page, locate the target DB instance and choose **More** > **Create Read Replica** in the **Operation** column.
+#. On the **Instances** page, locate the target DB instance and choose **More** > **Create Read Replica** in the **Operation** column.
 
    Alternatively, click the target DB instance. In the **DB Instance Topology** area on the **Basic Information** page, click |image2| to create read replicas.
 

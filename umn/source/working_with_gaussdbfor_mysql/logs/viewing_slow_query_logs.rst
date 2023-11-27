@@ -29,7 +29,7 @@ Viewing Log Details
 
 #. Click **Service List**. Under **Database**, click **GaussDB**.
 
-#. On the **Instance Management** page, click the target DB instance. The **Basic Information** page is displayed.
+#. On the **Instances** page, click the target DB instance. The **Basic Information** page is displayed.
 
 #. In the navigation pane on the left, choose **Logs**.
 

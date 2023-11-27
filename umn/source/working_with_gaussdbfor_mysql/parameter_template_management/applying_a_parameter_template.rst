@@ -22,7 +22,7 @@ Procedure
 
 #. Click **Service List**. Under **Database**, click **GaussDB**.
 
-#. On the **Parameter Template Management** page, you can apply a default template or a custom template to a target DB instance:
+#. On the **Parameter Templates** page, you can apply a default template or a custom template to a target DB instance:
 
    -  To apply a default template, click **Default Templates**, locate the target parameter template, and in the **Operation** column, click **Apply**.
    -  To apply a custom template, click **Custom Templates**, locate the target parameter template, and in the **Operation** column, choose **More** > **Apply**.
