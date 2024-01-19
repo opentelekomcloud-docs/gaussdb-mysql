@@ -8,7 +8,7 @@ Deleting a Read Replica
 Scenarios
 ---------
 
-You can manually delete read replicas on the **Instance Management** page.
+You can manually delete read replicas on the **Instances** page.
 
 .. important::
 
@@ -29,12 +29,12 @@ Procedure
 
 #. Click **Service List**. Under **Database**, click **GaussDB**.
 
-#. On the **Instance Management** page, click the target DB instance.
+#. On the **Instances** page, click the target DB instance.
 
 #. At the bottom of the **Basic Information** page, locate the read replicas to be deleted and choose **More** > **Delete** in the **Operation** column.
 
    For high availability reasons, the system reserves an available read replica. The read replica cannot be deleted until the associated DB instance is deleted.
 
-#. In the displayed dialog box, click **Yes**. Refresh the **Instance Management** page later to check that the deletion is successful.
+#. In the displayed dialog box, click **Yes**. Refresh the **Instances** page later to check that the deletion is successful.
 
 .. |image1| image:: /_static/images/en-us_image_0000001352219100.png

@@ -38,7 +38,7 @@ Procedure
 
 #. Click **Service List**. Under **Database**, click **GaussDB**.
 
-#. On the **Instance Management** page, locate the target DB instance and click **View Metric** in the **Operation** column to go to the Cloud Eye console.
+#. On the **Instances** page, locate the target DB instance and click **View Metric** in the **Operation** column to go to the Cloud Eye console.
 
    You can use either of the following methods to view monitoring metrics:
 

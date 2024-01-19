@@ -42,7 +42,7 @@ Procedure
 
 #. Click **Service List**. Under **Database**, click **GaussDB**.
 
-#. On the **Instance Management** page, click the target DB instance.
+#. On the **Instances** page, click the target DB instance.
 
 #. Configure security group rules.
 

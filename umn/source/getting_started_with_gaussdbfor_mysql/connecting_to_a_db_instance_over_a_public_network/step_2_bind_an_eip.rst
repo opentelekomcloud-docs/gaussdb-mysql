@@ -24,7 +24,7 @@ Procedure
 
 #. Click **Service List**. Under **Database**, click **GaussDB**.
 
-#. On the **Instance Management** page, click the target DB instance.
+#. On the **Instances** page, click the target DB instance.
 
 #. In the **Network Information** area, click **Bind** in the Private IP Address field.
 

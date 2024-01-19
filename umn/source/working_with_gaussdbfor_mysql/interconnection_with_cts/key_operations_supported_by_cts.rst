@@ -60,3 +60,5 @@ Cloud Trace Service (CTS) records operations related to GaussDB(for MySQL) for f
    +----------------------------------------------+----------------+-----------------------+
    | Applying a parameter template                | parameterGroup | applyParameterGroup   |
    +----------------------------------------------+----------------+-----------------------+
+   | Deleting a task from the task center         | job            | deleteTaskCenterJob   |
+   +----------------------------------------------+----------------+-----------------------+

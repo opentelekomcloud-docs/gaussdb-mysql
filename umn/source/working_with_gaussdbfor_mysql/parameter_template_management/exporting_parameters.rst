@@ -20,7 +20,7 @@ Procedure
 
 #. Click **Service List**. Under **Database**, click **GaussDB**.
 
-#. On the **Instance Management** page, click the target DB instance.
+#. On the **Instances** page, click the target DB instance.
 
 #. In the navigation pane on the left, choose **Parameters**. On the displayed page, click **Export** above the parameter list.
 

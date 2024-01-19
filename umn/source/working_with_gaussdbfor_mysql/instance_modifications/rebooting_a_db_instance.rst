@@ -27,7 +27,7 @@ Procedure
 
 #. Click **Service List**. Under **Database**, click **GaussDB**.
 
-#. On the **Instance Management** page, locate the target DB instance and choose **More** > **Reboot** in the **Operation** column.
+#. On the **Instances** page, locate the target DB instance and choose **More** > **Reboot** in the **Operation** column.
 
    Alternatively, click the target DB instance. On the displayed page, click **Reboot** in the upper right corner of the page.
 

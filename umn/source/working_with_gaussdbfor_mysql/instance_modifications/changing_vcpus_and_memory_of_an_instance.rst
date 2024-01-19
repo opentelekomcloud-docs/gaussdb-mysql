@@ -29,7 +29,7 @@ Procedure
 
 #. You can change the instance specifications in either of the following ways:
 
-   -  On the **Instance Management** page, locate the target DB instance and choose **More** > **Change Instance Specifications** in the **Operation** column.
+   -  On the **Instances** page, locate the target DB instance and choose **More** > **Change Instance Specifications** in the **Operation** column.
    -  Click the target DB instance to go to the **Basic Information** page. In the **DB Instance Information** area, click **Change** in the **Instance Specifications** field.
 
 #. On the displayed page, specify the new instance specifications, and click **Next**.
@@ -41,7 +41,7 @@ Procedure
 
 #. View the DB instance specification change result.
 
-   Changing the instance specifications takes 5-15 minutes. During this period, the status of the instance on the **Instance Management** page is **Changing instance specifications**. After a few minutes, you can click the instance name to view the new instance specifications on the displayed **Basic Information** page.
+   Changing the instance specifications takes 5-15 minutes. During this period, the status of the instance on the **Instances** page is **Changing instance specifications**. After a few minutes, you can click the instance name to view the new instance specifications on the displayed **Basic Information** page.
 
    .. important::
 

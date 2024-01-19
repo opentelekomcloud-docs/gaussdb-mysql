@@ -8,7 +8,7 @@ Deleting a DB Instance
 Scenarios
 ---------
 
-You can manually delete a DB instance on the **Instance Management** page.
+You can manually delete a DB instance on the **Instances** page.
 
 .. important::
 
@@ -27,7 +27,7 @@ Procedure
 #. Log in to the management console.
 #. Click |image1| in the upper left corner and select a region and a project.
 #. Click **Service List**. Under **Database**, click **GaussDB**.
-#. On the **Instance Management** page, locate the DB instance to be deleted and click **More** > **Delete** in the **Operation** column.
-#. In the displayed dialog box, click **Yes**. Refresh the **Instance Management** page later to check that the deletion is successful.
+#. On the **Instances** page, locate the DB instance to be deleted and click **More** > **Delete** in the **Operation** column.
+#. In the displayed dialog box, click **Yes**. Refresh the **Instances** page later to check that the deletion is successful.
 
 .. |image1| image:: /_static/images/en-us_image_0000001352219100.png

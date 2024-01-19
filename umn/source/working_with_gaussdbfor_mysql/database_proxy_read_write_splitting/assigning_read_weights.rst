@@ -12,7 +12,7 @@ Description
 
 -  After read/write splitting is enabled, you can assign read weights for the primary node and read replicas.
 -  The default read weight of the primary node is 0. The higher read weight the primary node is assigned, the more read requests it can process.
--  If the read weight of a read replica is 0, the read replica does not process any read requests.
+-  When the read weights of all nodes are 0, services are not affected. In this case, the primary node processes all read and write requests by default.
 -  The weight of a read replica ranges from 0 to 1000.
 -  For details about how to assign read weights, see :ref:`Weight Assignment Rules <gaussdb_11_0018__en-us_topic_0200110324_section18253121664211>`.
 
@@ -42,7 +42,7 @@ Procedure
 
 #. Under **Database**, click **GaussDB**. In the navigation pane on the left, click **GaussDB(for MySQL)**.
 
-#. On the **Instance Management** page, click the instance name to go to the **Basic Information** page.
+#. On the **Instances** page, click the instance name to go to the **Basic Information** page.
 
 #. In the navigation pane on the left, choose **Database Proxy**. On the displayed page, click the **Read/Write Splitting** tab.
 

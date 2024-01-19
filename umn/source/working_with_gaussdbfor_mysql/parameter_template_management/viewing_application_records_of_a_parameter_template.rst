@@ -19,7 +19,7 @@ Procedure
 
 #. Click **Service List**. Under **Database**, click **GaussDB**.
 
-#. Choose **Parameter Template Management** in the navigation pane on the left, locate the target parameter template, and click **View Application Record** in the **Operation** column on the **Default Templates** page or choose **More** > **View Application Record** on the **Custom Templates** page.
+#. Choose **Parameter Templates** in the navigation pane on the left, locate the target parameter template, and click **View Application Record** in the **Operation** column on the **Default Templates** page or choose **More** > **View Application Record** on the **Custom Templates** page.
 
    You can view the name or ID of the DB instance to which the parameter template applies, as well as the application status, application time, and failure cause.
 

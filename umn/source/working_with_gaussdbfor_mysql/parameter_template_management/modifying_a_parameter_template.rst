@@ -22,7 +22,7 @@ Modifying Parameter Template Parameters
 
 #. Click **Service List**. Under **Database**, click **GaussDB**.
 
-#. In the navigation pane on the left, choose **Parameter Template Management**. On the **Custom Templates** page, click the parameter template you want to view.
+#. In the navigation pane on the left, choose **Parameter Templates**. On the **Custom Templates** page, click the parameter template you want to view.
 
 #. Modify parameters as required.
 
@@ -54,7 +54,7 @@ Modifying Instance Parameters
 
 #. Click **Service List**. Under **Database**, click **GaussDB**.
 
-#. On the **Instance Management** page, click the target DB instance. The **Basic Information** page is displayed.
+#. On the **Instances** page, click the target DB instance. The **Basic Information** page is displayed.
 
 #. In the navigation pane on the left, choose **Parameters**. On the displayed page, modify parameters as required.
 
@@ -64,7 +64,7 @@ Modifying Instance Parameters
 
       Check the value in the **Effective upon Reboot** column.
 
-      -  If the value is **Yes** and the DB instance status on the **Instance Management** page is **Pending reboot**, you must reboot the DB instance for the modifications of this parameter to take effect.
+      -  If the value is **Yes** and the DB instance status on the **Instances** page is **Pending reboot**, you must reboot the DB instance for the modifications of this parameter to take effect.
       -  If the value is **No**, the modification of this parameter takes effect immediately.
 
    -  To save the modifications, click **Save**.

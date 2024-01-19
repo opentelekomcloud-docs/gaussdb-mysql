@@ -14,17 +14,13 @@ Procedure
 ---------
 
 #. Log in to the management console.
-
 #. Click |image1| in the upper left corner and select a region and a project.
-
 #. Click **Service List**. Under **Database**, click **GaussDB**.
+#. On the **Instances** page, locate the instance name and click |image2| in the **Name/ID** column to edit the instance name.
 
-#. On the **Instance Management** page, locate the target DB instance and click |image2| next to it to edit the DB instance name. Then, click **OK**.
-
-   The DB instance name must start with a letter and consist of 4 to 64 characters. Only uppercase letters, lowercase letters, digits, hyphens (-), and underscores (_) are allowed.
-
-   -  To submit the change, click **OK**.
-   -  To cancel the change, click **Cancel**.
+   -  The DB instance name must start with a letter and consist of 4 to 64 characters. Only uppercase letters, lowercase letters, digits, hyphens (-), and underscores (_) are allowed.
+   -  When changing the instance name, you can determine whether to select **Change node names synchronously** as required. If this option is selected, the names of the corresponding nodes are changed when the instance name is changed. If this option is not selected, only the instance name is changed, and the corresponding node names are not changed.
+   -  If you want to submit the change, click **OK**. If you want to cancel the change, click **Cancel**.
 
 #. View the result of the change on the **Basic Information** page.
 

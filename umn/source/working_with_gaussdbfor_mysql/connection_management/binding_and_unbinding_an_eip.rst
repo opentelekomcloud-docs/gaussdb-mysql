@@ -31,7 +31,7 @@ Binding an EIP
 
 #. Click **Service List**. Under **Database**, click **GaussDB**.
 
-#. On the **Instance Management** page, click the target DB instance. The **Basic Information** page is displayed.
+#. On the **Instances** page, click the target DB instance. The **Basic Information** page is displayed.
 
 #. In the **Network Information** area, click **Bind** in the **Public IP Address (EIP)** field.
 
