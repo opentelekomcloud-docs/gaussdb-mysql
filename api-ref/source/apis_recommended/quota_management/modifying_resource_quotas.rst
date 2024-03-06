@@ -13,6 +13,11 @@ This API is used to modify the resource quota of a specified enterprise project.
 -  Learn how to :ref:`authorize and authenticate <gaussdb_03_0001>` it.
 -  Obtain the required :ref:`region and endpoint <gaussdb_00_0003>`.
 
+Precautions
+-----------
+
+Before using this API, ensure that the enterprise project has been enabled and you have the **gaussdb:quota:modify** permission.
+
 URI
 ---
 
