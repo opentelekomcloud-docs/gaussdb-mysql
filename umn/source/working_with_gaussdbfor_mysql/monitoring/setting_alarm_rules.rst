@@ -25,17 +25,33 @@ Procedure
 
 #. On the displayed page, set parameters as required.
 
-   -  Specify **Name** and **Description**.
-   -  Select **Use template** for **Method**. The template contains the following common metrics: CPU usage, memory usage, and storage space usage.
-   -  Click |image2| to enable alarm notification. The validity period is 24 hours by default. If the topics you require are not displayed in the drop-down list, click **Create an SMN topic**. Then, select **Generated alarm** and **Cleared alarm** for **Trigger Condition**.
+   .. table:: **Table 1** Parameter description
 
-      .. note::
-
-         Cloud Eye sends notifications only within the validity period specified in the alarm rule.
+      +-----------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
+      | Parameter                         | Parameter description                                                                                                                                    |
+      +===================================+==========================================================================================================================================================+
+      | Name                              | Alarm rule name. The system generates a random name, which you can modify.                                                                               |
+      |                                   |                                                                                                                                                          |
+      |                                   | Example value: **alarm-b6al**                                                                                                                            |
+      +-----------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
+      | Description                       | (Optional) Supplementary information about the alarm rule.                                                                                               |
+      +-----------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
+      | Method                            | There are two options: **Use existing template**, and **Configure manually**.                                                                            |
+      +-----------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
+      | Template                          | Template to be used.                                                                                                                                     |
+      |                                   |                                                                                                                                                          |
+      |                                   | You can select a default alarm template or create a custom template.                                                                                     |
+      +-----------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
+      | Alarm Notification                | Whether to notify users when alarms are triggered. Notifications can be sent by email, text message, or HTTP/HTTPS message.                              |
+      +-----------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
+      | Notification Object               | Object that receives alarm notifications. You can select the account contact or a topic.                                                                 |
+      |                                   |                                                                                                                                                          |
+      |                                   | -  Account contact is the mobile phone number and email address of the registered account.                                                               |
+      |                                   | -  Topic is used to publish messages and subscribe to notifications. If the required topic is unavailable, create one first and add subscriptions to it. |
+      +-----------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 #. Click **Create**. The alarm rule is created.
 
    For operation details, see the *Cloud Eye User Guide*.
 
 .. |image1| image:: /_static/images/en-us_image_0000001403218685.png
-.. |image2| image:: /_static/images/en-us_image_0000001352538844.png
