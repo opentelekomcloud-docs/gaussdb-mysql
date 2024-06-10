@@ -16,6 +16,7 @@ Managing DB Instances
 -  :ref:`Changing DB Instance Specifications <gaussdb_04_0020>`
 -  :ref:`Changing the Collection Period of Monitoring by Seconds <updateinstancemonitor>`
 -  :ref:`Querying the Collection Period of Monitoring by Seconds <showinstancemonitorextend>`
+-  :ref:`Changing a Database Port <updategaussmysqlinstanceport>`
 
 .. toctree::
    :maxdepth: 1
@@ -32,3 +33,4 @@ Managing DB Instances
    changing_db_instance_specifications
    changing_the_collection_period_of_monitoring_by_seconds
    querying_the_collection_period_of_monitoring_by_seconds
+   changing_a_database_port

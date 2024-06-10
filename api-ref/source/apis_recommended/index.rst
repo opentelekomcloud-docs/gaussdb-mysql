@@ -14,6 +14,7 @@ APIs (Recommended)
 -  :ref:`Database Proxy <topic_300000006>`
 -  :ref:`Log Management <topic_300000007>`
 -  :ref:`Tag Management <topic_300000009>`
+-  :ref:`SQL Statement Concurrency Control <topic_300000012>`
 -  :ref:`Task Center <gaussdb_04_0014>`
 
 .. toctree::
@@ -29,4 +30,5 @@ APIs (Recommended)
    database_proxy/index
    log_management/index
    tag_management/index
+   sql_statement_concurrency_control/index
    task_center/index
