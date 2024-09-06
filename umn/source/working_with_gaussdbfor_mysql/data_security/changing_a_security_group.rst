@@ -15,7 +15,7 @@ Procedure
 
 #. Log in to the management console.
 #. Click |image1| in the upper left corner and select a region and a project.
-#. Click **Service List**. Under **Database**, click **GaussDB**.
+#. Click **Service List**. Under **Databases**, click **GaussDB(for MySQL)**.
 #. On the **Instances** page, click the target DB instance. The **Basic Information** page is displayed.
 #. In the **Network Information** area, click |image2| in the **Security Group** field.
 

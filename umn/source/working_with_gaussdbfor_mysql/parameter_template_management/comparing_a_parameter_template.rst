@@ -17,7 +17,7 @@ Comparing Instance Parameters with a Parameter Template
 
 #. Log in to the management console.
 #. Click |image1| in the upper left corner and select a region and a project.
-#. Click **Service List**. Under **Database**, click **GaussDB**.
+#. Click **Service List**. Under **Databases**, click **GaussDB(for MySQL)**.
 #. On the **Instances** page, click the target DB instance.
 #. In the navigation pane on the left, choose **Parameters**. On the displayed page, click **Compare** above the parameter list.
 #. In the displayed dialog box, select a parameter template to be compared and click **OK**.
@@ -30,7 +30,7 @@ Comparing Parameter Templates
 
 #. Log in to the management console.
 #. Click |image2| in the upper left corner and select a region and a project.
-#. Click **Service List**. Under **Database**, click **GaussDB**.
+#. Click **Service List**. Under **Databases**, click **GaussDB(for MySQL)**.
 #. On the **Parameter Templates** page, click **Custom Templates**. Locate the target parameter template and click **Compare** in the **Operation** column.
 #. In the displayed dialog box, select a parameter template that uses the same DB engine as the target template and click **OK**.
 

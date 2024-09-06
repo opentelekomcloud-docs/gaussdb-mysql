@@ -12,7 +12,7 @@ Procedure
 
 #. Log in to the management console.
 #. Click |image1| in the upper left corner and select a region and a project.
-#. Click **Service List**. Under **Database**, click **GaussDB**.
+#. Click **Service List**. Under **Databases**, click **GaussDB(for MySQL)**.
 #. Click the target DB instance to go to the **Basic Information** page.
 #. At the bottom of the **Basic Information** page, you can view and manage all read replicas associated with the DB instance.
 

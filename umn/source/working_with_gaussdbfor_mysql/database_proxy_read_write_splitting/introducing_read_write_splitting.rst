@@ -5,7 +5,7 @@
 Introducing Read/Write Splitting
 ================================
 
-Read/write splitting enables read and write requests to be automatically routed through a read/write splitting address. You can enable read/write splitting after read replicas are created by referring to :ref:`Enabling Read/Write Splitting <gaussdb_11_0017>`. Write requests are automatically routed to the primary node and read requests are routed to read replicas or the primary node by user-defined weights.
+Read/write splitting enables read and write requests to be automatically routed through a proxy address. You can create a proxy instance by referring to :ref:`Creating a Proxy Instance <gaussdb_11_0017>` after read replicas are created. Thanks to the IP address of the proxy instance, write requests are automatically routed to the primary node and read requests are routed to read replicas and the primary node by user-defined weights.
 
 Constraints
 -----------
@@ -20,14 +20,14 @@ Constraints
 -  Read/write splitting does not support SSL encryption.
 -  Read/write splitting does not support the compression protocol.
 -  If multi-statements are executed, all subsequent requests will be routed to the primary node. To restore the read/write splitting function, you need to disconnect the connection between applications and the read/write splitting address and establish a connection again.
--  The port number of the proxy instance is independent of that of the DB instance. Changing the port number of the DB instance does not change the port number of the proxy instance.
+-  The port number of a proxy instance is independent of that of a DB instance. Changing the port number of the DB instance does not change that of the proxy instance. The default port number of a proxy instance is 3306.
 
 Scenarios
 ---------
 
 When enabling read/write splitting for an instance, you need to select the nodes (including the primary node and read replicas) to be associated to the proxy instances.
 
--  Different applications can connect to the instance through the read/write splitting addresses of different proxy instances. Read requests are routed to the proxy instances that applications connect to. You can also add nodes to or remove nodes from proxy instances.
+-  Different applications can connect to the instance through the IP addresses of different proxy instances. Read requests are routed to the proxy instances that applications connect to. You can also add nodes to or remove nodes from proxy instances.
 
 -  A primary node or read replica can be added to multiple proxy instances at the same time, and then is assigned different read weights. For details about how to assign weights, :ref:`Assigning Read Weights <gaussdb_11_0018>`.
 
