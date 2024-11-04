@@ -12,13 +12,13 @@ By default, SQL Explorer is disabled for GaussDB(for MySQL). This section descri
 Enabling SQL Explorer
 ---------------------
 
-#. Log in to the console.
+#. Log in to the management console.
 
 #. Click |image1| in the upper left corner and select a region and a project.
 
-#. Under **Database**, click **GaussDB**. In the navigation pane on the left, click **GaussDB(for MySQL)**.
+#. Click **Service List**. Under **Databases**, click **GaussDB(for MySQL)**.
 
-#. On the **Instances** page, click the instance name to go to the **Basic Information** page.
+#. On the **Instances** page, click the target instance.
 
 #. In the navigation pane on the left, choose **Advanced O&M**.
 
@@ -37,15 +37,15 @@ Enabling SQL Explorer
 Disabling SQL Explorer
 ----------------------
 
-#. Log in to the console.
+#. Log in to the management console.
 #. Click |image4| in the upper left corner and select a region and a project.
-#. Under **Database**, click **GaussDB**. In the navigation pane on the left, click **GaussDB(for MySQL)**.
-#. On the **Instances** page, click the instance name to go to the **Basic Information** page.
+#. Click **Service List**. Under **Databases**, click **GaussDB(for MySQL)**.
+#. On the **Instances** page, click the target instance.
 #. In the navigation pane on the left, choose **Advanced O&M**. Click **SQL Explorer** and set |image5| to |image6|.
 
-.. |image1| image:: /_static/images/en-us_image_0000001400391461.png
+.. |image1| image:: /_static/images/en-us_image_0000001352219100.png
 .. |image2| image:: /_static/images/en-us_image_0000001496610421.png
 .. |image3| image:: /_static/images/en-us_image_0000001497009921.png
-.. |image4| image:: /_static/images/en-us_image_0000001400391461.png
+.. |image4| image:: /_static/images/en-us_image_0000001352219100.png
 .. |image5| image:: /_static/images/en-us_image_0000001496889725.png
 .. |image6| image:: /_static/images/en-us_image_0000001497009925.png

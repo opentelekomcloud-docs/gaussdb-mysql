@@ -19,7 +19,7 @@ Procedure
 
 #. Log in to the management console.
 #. Click |image1| in the upper left corner and select a region and a project.
-#. Click **Service List**. Under **Database**, click **GaussDB**.
+#. Click **Service List**. Under **Databases**, click **GaussDB(for MySQL)**.
 #. On the **Parameter Templates** page, click **Custom Templates**. Locate the parameter template you want to modify and click |image2| in the **Description** column.
 #. Enter a new description. You can click |image3| to submit or |image4| to cancel the modification.
 

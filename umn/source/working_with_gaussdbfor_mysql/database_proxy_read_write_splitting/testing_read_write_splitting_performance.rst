@@ -5,12 +5,12 @@
 Testing Read/Write Splitting Performance
 ========================================
 
-After read/write splitting is enabled, databases can be connected through a read/write splitting address. You can use internal SQL commands to verify the read/write splitting performance.
+After a proxy instance is created, you can connect your DB instance through a proxy address. You can use internal SQL commands to verify the read/write splitting performance.
 
 Procedure
 ---------
 
-#. Use a read/write splitting address to connect to the database. For details, see :ref:`Enabling Read/Write Splitting <gaussdb_11_0017>`.
+#. Connect to a DB instance through a proxy address. For details, see :ref:`Creating a Proxy Instance <gaussdb_11_0017>`.
 
 #. Run the following command to view the routing result of the previous SQL statement. The result is the private IP address of the DB instance.
 
@@ -20,6 +20,6 @@ Procedure
 
 
    .. figure:: /_static/images/en-us_image_0000001420606766.png
-      :alt: **Figure 1** Query result
+      :alt: **Figure 1** Query results
 
-      **Figure 1** Query result
+      **Figure 1** Query results

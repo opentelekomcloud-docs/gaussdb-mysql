@@ -36,19 +36,19 @@ When the system automatically assigns read weights to read replicas, the weight 
 Procedure
 ---------
 
-#. Log in to the console.
+#. Log in to the management console.
 
 #. Click |image1| in the upper left corner and select a region and a project.
 
-#. Under **Database**, click **GaussDB**. In the navigation pane on the left, click **GaussDB(for MySQL)**.
+#. Click **Service List**. Under **Databases**, click **GaussDB(for MySQL)**.
 
-#. On the **Instances** page, click the instance name to go to the **Basic Information** page.
+#. On the **Instances** page, click the target instance.
 
 #. In the navigation pane on the left, choose **Database Proxy**. On the displayed page, click the **Read/Write Splitting** tab.
 
 #. In the displayed dialog box, select read replicas for which you want to assign weights on the left and assign the weights on the right.
 
-   -  Different applications can connect to the instance through the read/write splitting addresses of different proxy instances. Read requests are routed to the proxy instances that applications connect to. You can also add nodes to or remove nodes from proxy instances.
+   -  Different applications can connect to the instance through the IP addresses of different proxy instances. Read requests are routed to the proxy instances that applications connect to. You can also add nodes to or remove nodes from proxy instances.
 
    -  In the read/write mode, all write requests are routed to the primary node, and read requests are routed to each node based on the read weights.
    -  In the read-only mode, only read requests can be routed to read replicas based on the read weights. Even if the primary node is assigned with a read weight, the weight does not take effect.
@@ -67,4 +67,4 @@ Procedure
       -  If you want to associate a read replica with a proxy instance, go to the **Basic Information** page, locate the read replica in the **Node List** area, and click **Associate with proxy instance**. On the displayed page, select a proxy instance and click **Assign Weight**.
       -  After a read replica is deleted, its weight is automatically removed while the weights of other read replicas remain unchanged.
 
-.. |image1| image:: /_static/images/en-us_image_0000001212611256.png
+.. |image1| image:: /_static/images/en-us_image_0000001352219100.png

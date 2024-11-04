@@ -13,7 +13,7 @@ You can change the database port of a GaussDB(for MySQL) instance. The change ap
 Constraints
 -----------
 
-The port number of the proxy instance is independent of that of the instance. Changing the port number of the DB instance does not change the port number of the proxy instance.
+Changing the database port of a DB instance will only affect access through its IP address. If a DB instance is accessed through a proxy instance, the database port of the proxy instance cannot be changed, which defaults to **3306**.
 
 Procedure
 ---------
@@ -22,9 +22,9 @@ Procedure
 
 #. Click |image1| in the upper left corner and select a region and a project.
 
-#. Click **Service List**. Under **Database**, click **GaussDB**.
+#. Click **Service List**. Under **Databases**, click **GaussDB(for MySQL)**.
 
-#. On the **Instances** page, click the target DB instance. The **Basic Information** page is displayed.
+#. On the **Instances** page, click the target DB instance to go to the **Basic Information** page.
 
 #. In the **Network Information** area, click |image2| in the **Database Port** field.
 

@@ -31,7 +31,7 @@ Method 1
 
 #. Click |image1| in the upper left corner and select a region and a project.
 
-#. Click **Service List**. Under **Database**, click **GaussDB**.
+#. Click **Service List**. Under **Databases**, click **GaussDB(for MySQL)**.
 
 #. On the **Instances** page, locate the target DB instance and choose **More** > **Reset Password** in the **Operation** column.
 
@@ -41,7 +41,7 @@ Method 1
 
       Keep this password secure. The system cannot retrieve it.
 
-   The new password must consist of 8 to 32 characters and contain at least three of the following: uppercase letters, lowercase letters, digits, and special characters (``~!@#%^*-_=+?``). Enter a strong password and periodically change it to improve security, preventing security risks such as brute force cracking.
+   The new password must consist of 8 to 32 characters and contain at least three of the following: uppercase letters, lowercase letters, digits, and special characters ``~!@#%^*-_=+?``. Enter a strong password and periodically change it to improve security, preventing security risks such as brute force cracking.
 
    -  To submit the new password, click **OK**.
    -  To cancel the reset, click **Cancel**.
@@ -53,7 +53,7 @@ Method 2
 
 #. Click |image2| in the upper left corner and select a region and a project.
 
-#. Click **Service List**. Under **Database**, click **GaussDB**.
+#. Click **Service List**. Under **Databases**, click **GaussDB(for MySQL)**.
 
 #. On the **Instances** page, click the target DB instance. The **Basic Information** page is displayed.
 
@@ -63,7 +63,7 @@ Method 2
 
       Keep this password secure. The system cannot retrieve it.
 
-   The new password must consist of 8 to 32 characters and contain at least three of the following: uppercase letters, lowercase letters, digits, and special characters (``~!@#%^*-_=+?``). Enter a strong password and periodically change it to improve security, preventing security risks such as brute force cracking.
+   The new password must consist of 8 to 32 characters and contain at least three of the following: uppercase letters, lowercase letters, digits, and special characters ``~!@#%^*-_=+?``. Enter a strong password and periodically change it to improve security, preventing security risks such as brute force cracking.
 
    -  To submit the new password, click **OK**.
    -  To cancel the reset, click **Cancel**.
