@@ -104,7 +104,7 @@ Using SSL to Connect to a DB Instance
 
 #. Click |image1| in the upper left corner and select a region and a project.
 
-#. Click **Service List**. Under **Database**, click **GaussDB**.
+#. Click **Service List**. Under **Databases**, click **GaussDB(for MySQL)**.
 
 #. In the **DB Instance Information** area on the **Basic Information** page, click |image2| in the **SSL** field to download the root certificate or certificate bundle.
 

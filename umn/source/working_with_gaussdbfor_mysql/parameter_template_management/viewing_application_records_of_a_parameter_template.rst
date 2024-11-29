@@ -17,7 +17,7 @@ Procedure
 
 #. Click |image1| in the upper left corner and select a region and a project.
 
-#. Click **Service List**. Under **Database**, click **GaussDB**.
+#. Click **Service List**. Under **Databases**, click **GaussDB(for MySQL)**.
 
 #. Choose **Parameter Templates** in the navigation pane on the left, locate the target parameter template, and click **View Application Record** in the **Operation** column on the **Default Templates** page or choose **More** > **View Application Record** on the **Custom Templates** page.
 

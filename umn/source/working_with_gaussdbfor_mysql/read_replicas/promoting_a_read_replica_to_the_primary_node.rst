@@ -14,7 +14,7 @@ Manual Switchover
 
 #. Log in to the management console.
 #. Click |image1| in the upper left corner and select a region and a project.
-#. Click **Service List**. Under **Database**, click **GaussDB**.
+#. Click **Service List**. Under **Databases**, click **GaussDB(for MySQL)**.
 #. On the **Instances** page, click the target DB instance.
 #. At the bottom of the **Basic Information** page, locate the read replica to be promoted and click **Promote to Primary** in the **Operation** column.
 #. In the displayed dialog box, click **Yes**.

@@ -2,32 +2,20 @@
 
 .. _gaussdb_11_0017:
 
-Enabling Read/Write Splitting
-=============================
+Creating a Proxy Instance
+=========================
 
-Read/write splitting enables read and write requests to be automatically routed through a read/write splitting address. This section describes how to enable read/write splitting.
+A proxy instance enables read and write requests to be automatically routed through its IP address. This section describes how to create a proxy instance.
 
 Procedure
 ---------
 
-#. Log in to the console.
-
+#. Log in to the management console.
 #. Click |image1| in the upper left corner and select a region and a project.
-
-#. Under **Database**, click **GaussDB**. In the navigation pane on the left, click **GaussDB(for MySQL)**.
-
-#. On the **Instances** page, click the target DB instance. The **Basic Information** page is displayed.
-
+#. Click **Service List**. Under **Databases**, click **GaussDB(for MySQL)**.
+#. On the **Instances** page, click the target DB instance.
 #. In the navigation pane on the left, choose **Database Proxy**.
-
-
-   .. figure:: /_static/images/en-us_image_0000001352059444.png
-      :alt: **Figure 1** Enabling read/write splitting
-
-      **Figure 1** Enabling read/write splitting
-
 #. Click **Create Proxy Instance**.
-
 #. In the displayed dialog box, configure required parameters and click **OK**. After a proxy instance has been created, you can click **Create Proxy Instance** in the **Database Proxy** page to add a new proxy instance.
 
    -  **Proxy Instance Name**: Enter 4 to 64 characters starting with a letter. Only letters (case-sensitive), digits, hyphens (-), and underscores (_) are allowed.
@@ -47,4 +35,4 @@ Procedure
 
    -  **Read Weight**: For instances with read/write splitting enabled, you can add or delete nodes and assign weights for the primary node and read replicas. Requests are assigned to the nodes based on the read weights you specify. For example, read weights assigned to one primary node and two read replicas are 100, 200, and 200, respectively. In the read/write mode, the primary node and two read replicas process read requests in the ratio of 1:2:2. The primary node processes 20% of read requests, and each read replica processes 40% of read requests. Write requests are automatically routed to the primary node. In the read-only mode, the read weight of the primary node does not take effect, and the two read replicas process 50% of read requests, respectively. For details, see :ref:`Assigning Read Weights <gaussdb_11_0018>`.
 
-.. |image1| image:: /_static/images/en-us_image_0000001400391461.png
+.. |image1| image:: /_static/images/en-us_image_0000001352219100.png
