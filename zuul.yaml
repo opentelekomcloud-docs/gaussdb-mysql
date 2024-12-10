@@ -4,6 +4,10 @@
     default-branch: main
     templates:
       - helpcenter-base-jobs
+    vars:
+      sphinx_pdf_files:
+        - gaussdb_mysql-api-ref.pdf
+        - gaussdb_mysql-umn.pdf
     check:
       jobs:
         - noop
