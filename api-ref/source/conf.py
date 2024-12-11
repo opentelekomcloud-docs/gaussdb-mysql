@@ -110,7 +110,7 @@ html_copy_source = False
 latex_documents = [
     ('index',
      'gaussdb_mysql-api-ref.tex',
-     u'GaussDB (for MySQL) - API Reference',
+    u'GaussDB (for MySQL) - API Reference',
      u'OpenTelekomCloud', 'manual'),
 ]
 

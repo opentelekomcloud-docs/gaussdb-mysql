@@ -110,7 +110,7 @@ html_copy_source = False
 latex_documents = [
     ('index',
      'gaussdb_mysql-umn.tex',
-     u'GaussDB (for MySQL) - User Guide',
+    u'GaussDB (for MySQL) - User Guide',
      u'OpenTelekomCloud', 'manual'),
 ]
 
