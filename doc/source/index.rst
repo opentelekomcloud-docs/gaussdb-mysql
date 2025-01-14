@@ -7,6 +7,7 @@ GaussDB(for MySQL) is the latest generation enterprise-class distributed databas
    :class: container-sbv
 
    .. service_card::
+      :environment: internal
       :service_type: gaussdb_mysql
       :umn: This document describes basic concepts, functions, key terms, and FAQs of GaussDB(for MySQL) and provides instructions for applying for and using GaussDB(for MySQL).
       :api-ref: This document describes application programming interfaces (APIs) of GaussDB(for MySQL) and provides API parameter description and example values.
