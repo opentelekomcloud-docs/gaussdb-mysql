@@ -5,58 +5,50 @@
 Change History
 ==============
 
-+-----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
-| Released On                       | Description                                                                                                                                |
-+===================================+============================================================================================================================================+
-| 2024-04-15                        | Modified the following content:                                                                                                            |
-|                                   |                                                                                                                                            |
-|                                   | Added :ref:`Backup Space and Billing <gaussdb_03_0069>`.                                                                                   |
-+-----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
-| 2024-02-28                        | Modified the following content:                                                                                                            |
-|                                   |                                                                                                                                            |
-|                                   | Modified the parameter description in :ref:`Setting Alarm Rules <gaussdb_03_0087>`.                                                        |
-+-----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
-| 2023-11-13                        | Modified the following content:                                                                                                            |
-|                                   |                                                                                                                                            |
-|                                   | Allowed you to change the node names synchronously during DB instance name change in :ref:`Changing a DB Instance Name <gaussdb_03_0032>`. |
-|                                   |                                                                                                                                            |
-|                                   | Added the event of deleting a task from the task center in :ref:`Key Operations Supported by CTS <gaussdb_03_0014>`.                       |
-+-----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
-| 2023-10-25                        | Modified the following content:                                                                                                            |
-|                                   |                                                                                                                                            |
-|                                   | Added specifications (2 vCPUs \| 8 GB) in :ref:`DB Instance Specifications <gaussdb_01_0004>`.                                             |
-+-----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
-| 2023-04-06                        | Added :ref:`Changing an Instance Description <gaussdb_03_0132>`.                                                                           |
-+-----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
-| 2022-11-30                        | Modified the following content:                                                                                                            |
-|                                   |                                                                                                                                            |
-|                                   | -  Added :ref:`Introducing Read/Write Splitting <gaussdb_02_0011>`.                                                                        |
-|                                   | -  Added :ref:`Enabling Read/Write Splitting <gaussdb_11_0017>`.                                                                           |
-|                                   | -  Added :ref:`Changing the Read/Write Splitting Address <gaussdb_11_0031>`.                                                               |
-|                                   | -  Added :ref:`Disabling Read/Write Splitting <gaussdb_11_0019>`.                                                                          |
-|                                   | -  Added :ref:`Enabling or Disabling Access Control <gaussdb_11_0025>`.                                                                    |
-|                                   | -  Added :ref:`Enabling or Disabling Access Control <gaussdb_11_0025>`.                                                                    |
-|                                   | -  Added :ref:`Testing Read/Write Splitting Performance <gaussdb_11_0021>`.                                                                |
-+-----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
-| 2021-12-09                        | Modified the following content:                                                                                                            |
-|                                   |                                                                                                                                            |
-|                                   | -  Modified instance specifications.                                                                                                       |
-|                                   | -  Modified the parameter description about adding a security group rule.                                                                  |
-|                                   | -  Modified the description of changing parameters in parameter templates.                                                                 |
-|                                   | -  Modified the content of the section "Task Center".                                                                                      |
-|                                   | -  Optimized the description of the section "Viewing Monitoring Metrics".                                                                  |
-+-----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
-| 2021-11-30                        | Optimized :ref:`Deleting a Task Record <gaussdb_task_0002>`.                                                                               |
-+-----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
-| 2021-08-31                        | Added :ref:`Enabling or Disabling SQL Explorer <gaussdb_03_0152>`.                                                                         |
-+-----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
-| 2020-10-31                        | Optimized the content in :ref:`Configuring Displayed Metrics <gaussdb_03_0085>`.                                                           |
-+-----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
-| 2020-07-31                        | Modified the following content:                                                                                                            |
-|                                   |                                                                                                                                            |
-|                                   | -  Product description in :ref:`What Is GaussDB(for MySQL)? <introduction>`                                                                |
-|                                   |                                                                                                                                            |
-|                                   | -  Optimized DB instance specifications.                                                                                                   |
-+-----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
-| 2020-07-14                        | This issue is the first official release.                                                                                                  |
-+-----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
++-----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+| Released On                       | Description                                                                                                                                   |
++===================================+===============================================================================================================================================+
+| 2024-08-08                        | -  Optimized the content in :ref:`Backup Space and Billing <gaussdb_03_0069>`.                                                                |
+|                                   |                                                                                                                                               |
+|                                   | -  Added :ref:`Database Management <gaussdbformysql_03_0120>`.                                                                                |
+|                                   | -  Added :ref:`Account Management (Non-Administrator) <gaussdbformysql_03_0130>`.                                                             |
++-----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+| 2024-05-31                        | Optimized the content in :ref:`Backup Space and Billing <gaussdb_03_0069>`.                                                                   |
++-----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+| 2024-04-15                        | Added :ref:`Backup Space and Billing <gaussdb_03_0069>`.                                                                                      |
++-----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+| 2024-02-28                        | Modified the parameter description in :ref:`Setting Alarm Rules <gaussdb_03_0087>`.                                                           |
++-----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+| 2023-11-13                        | -  Allowed you to change the node names synchronously during DB instance name change in :ref:`Changing a DB Instance Name <gaussdb_03_0032>`. |
+|                                   | -  Added the event of deleting a task from the task center in :ref:`Key Operations Supported by CTS <gaussdb_03_0014>`.                       |
++-----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+| 2023-10-25                        | Added specifications (2 vCPUs \| 8 GB) in :ref:`DB Instance Specifications <gaussdb_01_0004>`.                                                |
++-----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+| 2023-04-06                        | Added :ref:`Changing an Instance Description <gaussdb_03_0132>`.                                                                              |
++-----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+| 2022-11-30                        | -  Added :ref:`Introducing Read/Write Splitting <gaussdb_02_0011>`.                                                                           |
+|                                   | -  Added :ref:`Creating a Proxy Instance <gaussdb_11_0017>`.                                                                                  |
+|                                   | -  Added :ref:`Changing a Proxy Address <gaussdb_11_0031>`.                                                                                   |
+|                                   | -  Added :ref:`Deleting a Proxy Instance <gaussdb_11_0019>`.                                                                                  |
+|                                   | -  Added :ref:`Enabling or Disabling Access Control <gaussdb_11_0025>`.                                                                       |
+|                                   | -  Added :ref:`Assigning Read Weights <gaussdb_11_0018>`.                                                                                     |
+|                                   | -  Added :ref:`Testing Read/Write Splitting Performance <gaussdb_11_0021>`.                                                                   |
++-----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+| 2021-12-09                        | -  Modified instance specifications.                                                                                                          |
+|                                   | -  Modified the parameter description about adding a security group rule.                                                                     |
+|                                   | -  Modified the description of changing parameters in parameter templates.                                                                    |
+|                                   | -  Modified the content of the section "Task Center".                                                                                         |
+|                                   | -  Optimized the description of the section "Viewing Monitoring Metrics".                                                                     |
++-----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+| 2021-11-30                        | Optimized the content in :ref:`Deleting a Task Record <gaussdb_task_0002>`.                                                                   |
++-----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+| 2021-08-31                        | Added :ref:`Enabling or Disabling SQL Explorer <gaussdb_03_0152>`.                                                                            |
++-----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+| 2020-10-31                        | Optimized the content in :ref:`Configuring Displayed Metrics <gaussdb_03_0085>`.                                                              |
++-----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+| 2020-07-31                        | -  Modified the product description in :ref:`What Is GaussDB(for MySQL)? <introduction>`                                                      |
+|                                   |                                                                                                                                               |
+|                                   | -  Optimized DB instance specifications.                                                                                                      |
++-----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+| 2020-07-14                        | This is the first official release.                                                                                                           |
++-----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+

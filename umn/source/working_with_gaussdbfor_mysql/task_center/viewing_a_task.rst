@@ -29,7 +29,7 @@ Procedure
 
 #. Log in to the management console.
 #. Click |image1| in the upper left corner and select a region and a project.
-#. Click **Service List**. Under **Database**, click **GaussDB**.
+#. Click **Service List**. Under **Databases**, click **GaussDB(for MySQL)**.
 #. In the navigation pane on the left, choose **Task Center**. Locate the task and view its details.
 
    -  To identify the task, you can use the task name/ID or instance name/ID. Alternatively, click the drop-down list of **All task types** in the upper right corner and enter or select the task name.
