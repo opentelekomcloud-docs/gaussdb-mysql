@@ -22,7 +22,7 @@ Procedure
 
 #. Choose **Task Center** in the navigation pane on the left. On the displayed page, locate the task record to be deleted and click **Delete** in the **Operation** column. In the displayed dialog box, click **Yes**.
 
-   You can delete instant task records in the following statuses:
+   You can delete the records of instant tasks in any of the following statuses:
 
    -  Running
    -  Completed

@@ -10,7 +10,7 @@ Scenarios
 
 You can reset the administrator password of a DB instance.
 
-You can also reset the password of your database account when using GaussDB(for MySQL).
+If you forget the password of your database account when using GaussDB(for MySQL), you can reset the password.
 
 You cannot reset the administrator password under the following circumstances:
 

@@ -5,4 +5,4 @@
 Viewing Logs
 ============
 
-You can view database logs on the GaussDB console. For operation details, see :ref:`Viewing Error Logs <gaussdb_03_0018>` and :ref:`Viewing Slow Query Logs <gaussdb_03_0019>`.
+You can view database logs on the GaussDB(for MySQL) console. For operation details, see :ref:`Viewing Error Logs <gaussdb_03_0018>` and :ref:`Viewing Slow Query Logs <gaussdb_03_0019>`.

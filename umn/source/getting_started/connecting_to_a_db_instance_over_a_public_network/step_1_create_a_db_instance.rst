@@ -1,6 +1,6 @@
-:original_name: gaussdb_02_0004.html
+:original_name: gaussdb_02_0012.html
 
-.. _gaussdb_02_0004:
+.. _gaussdb_02_0012:
 
 Step 1: Create a DB Instance
 ============================
@@ -47,19 +47,19 @@ Procedure
 
    .. table:: **Table 2** Specifications and storage
 
-      +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-      | Parameter                         | Description                                                                                                                                                             |
-      +===================================+=========================================================================================================================================================================+
-      | Instance Specifications           | Refers to the CPU and memory of a DB instance. Different instance specifications support different numbers of database connections and maximum IOPS.                    |
-      |                                   |                                                                                                                                                                         |
-      |                                   | After a DB instance is created, you can change its CPU and memory. For details, see :ref:`Changing vCPUs and Memory of an Instance <gaussdb_03_0092>`.                  |
-      +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-      | Nodes                             | GaussDB(for MySQL) supports one primary node and up to 15 read replicas. When you are creating a DB instance, a maximum of nine read replicas can be created at a time. |
-      |                                   |                                                                                                                                                                         |
-      |                                   | After the DB instance is created, you can also create read replicas based on service requirements by referring to :ref:`Creating a Read Replica <gaussdb_03_0111>`.     |
-      +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-      | Storage                           | Contains the system overhead required for inode, reserved block, and database operation. You do not need to specify storage space when creating a DB instance.          |
-      +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+      +-----------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+      | Parameter                         | Description                                                                                                                                                                        |
+      +===================================+====================================================================================================================================================================================+
+      | Instance Specifications           | Refers to the CPU and memory of a DB instance. Different instance specifications support different numbers of database connections and maximum IOPS.                               |
+      |                                   |                                                                                                                                                                                    |
+      |                                   | After a DB instance is created, you can change its CPU and memory. For details, see :ref:`Changing vCPUs and Memory of an Instance <gaussdb_03_0092>`.                             |
+      +-----------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+      | Nodes                             | A GaussDB(for MySQL) instance supports one primary node and up to 15 read replicas. When you are creating a DB instance, a maximum of nine read replicas can be created at a time. |
+      |                                   |                                                                                                                                                                                    |
+      |                                   | After the DB instance is created, you can also create read replicas based on service requirements by referring to :ref:`Creating Read Replicas <gaussdb_03_0111>`.                 |
+      +-----------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+      | Storage                           | Contains the system overhead required for inode, reserved block, and database operation. You do not need to specify storage space when creating a DB instance.                     |
+      +-----------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
    .. table:: **Table 3** Network
 

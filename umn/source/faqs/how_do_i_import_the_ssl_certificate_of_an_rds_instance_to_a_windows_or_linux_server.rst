@@ -2,11 +2,11 @@
 
 .. _gaussdb_faq_0010:
 
-How Can I Import the Root Certificate to a Windows or Linux OS?
-===============================================================
+How Do I Import the SSL Certificate of an RDS Instance to a Windows or Linux Server?
+====================================================================================
 
-Importing the Root Certificate to the Windows OS
-------------------------------------------------
+Importing the Certificate to a Windows Server
+---------------------------------------------
 
 #. Click **Start** and choose **Run**. In the displayed **Run** dialog box, enter **MMC** and press **Enter**.
 #. On the displayed console, choose **File** > **Add/Remove Snap-in**.
@@ -28,10 +28,10 @@ Importing the Root Certificate to the Windows OS
 #. Click **Finish**.
 #. Click **OK** to complete the import of the root certificate.
 
-Importing the Root Certificate to the Linux OS
-----------------------------------------------
+Importing the Certificate to a Linux Server
+-------------------------------------------
 
-You can use a connection tool (such as WinSCP or PuTTY) to upload the certificate to any directory on a Linux OS.
+You can use a connection tool (such as WinSCP or PuTTY) to upload the certificate to any directory on a Linux server.
 
 Example:
 

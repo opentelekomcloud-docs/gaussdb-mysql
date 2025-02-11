@@ -13,7 +13,7 @@ You can bind an EIP to a DB instance for public access and can unbind the EIP fr
 Precautions
 -----------
 
--  Public accessibility reduces the security of DB instances. Therefore, exercise caution when enabling this function. To achieve a higher transmission rate and security level, you are advised to migrate your applications to the ECS that is in the same region as the GaussDB(for MySQL) DB instance.
+-  Public accessibility reduces the security of DB instances. Therefore, exercise caution when enabling this function. To achieve a higher transmission rate and security level, you are advised to migrate your applications to the ECS that is in the same region as your DB instance.
 
 Procedure
 ---------

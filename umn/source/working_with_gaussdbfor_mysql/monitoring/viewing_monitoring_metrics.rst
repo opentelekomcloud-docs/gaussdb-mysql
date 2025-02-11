@@ -8,7 +8,7 @@ Viewing Monitoring Metrics
 Scenarios
 ---------
 
-The Cloud Eye service monitors operating statuses of DB instances. You can view the monitoring metrics of DB instances on the management console. By monitoring system resource usage during database running, you can identify periods of high resource usage. You can also check error logs or slow query logs to optimize database performance.
+The Cloud Eye service monitors operating statuses of DB instances. You can view the metrics of DB instances on the management console. By monitoring system resource usage during database running, you can identify periods of high resource usage. You can also check error logs or slow query logs to optimize database performance.
 
 .. note::
 
@@ -19,15 +19,15 @@ Prerequisites
 
 -  A DB instance is running properly.
 
-   Monitoring metrics of the DB instances that are faulty or have been deleted cannot be displayed on the Cloud Eye console. You can view their monitoring metrics after they are rebooted or restored to be available.
+   Metrics of the DB instances that are faulty or have been deleted cannot be displayed on the Cloud Eye console. You can view their metrics after they are rebooted or restored to normal.
 
 .. note::
 
-   If a DB instance has been faulty for 24 hours, Cloud Eye considers that it does not exist and deletes it from the monitoring object list. You need to manually clear the alarm rules created for the DB instance.
+   If a DB instance has been faulty for 24 hours, Cloud Eye considers it to no longer exist and deletes it from the monitoring object list. You need to manually clear the alarm rules created for the DB instance.
 
--  The DB instance keeps running properly for about 10 minutes.
+-  A DB instance keeps running properly for about 10 minutes.
 
-   For a newly created DB instance, you need to wait for a while before viewing the monitoring metrics.
+   For a newly created DB instance, you need to wait a bit before you can view the metrics.
 
 Procedure
 ---------
