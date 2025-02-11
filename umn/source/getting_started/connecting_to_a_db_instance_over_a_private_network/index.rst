@@ -2,13 +2,13 @@
 
 .. _gaussdb_02_0005:
 
-Connecting to a DB instance Over a Private Network
+Connecting to a DB Instance over a Private Network
 ==================================================
 
 -  :ref:`Overview <gaussdb_02_0006>`
 -  :ref:`Step 1: Create a DB Instance <gaussdb_02_0004>`
 -  :ref:`Step 2: Configure Security Group Rules <gaussdb_02_0008>`
--  :ref:`Step 3: Connect to a DB Instance Over a Private Network <gaussdb_02_0009>`
+-  :ref:`Step 3: Connect to a DB Instance over a Private Network <gaussdb_02_0009>`
 
 .. toctree::
    :maxdepth: 1

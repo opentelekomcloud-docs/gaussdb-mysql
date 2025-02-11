@@ -8,10 +8,10 @@ Configuring Displayed Metrics
 Function
 --------
 
-You can use Cloud Eye to monitor the running statuses of DB instances. This section describes namespaces, descriptions, and dimensions of monitoring metrics to be reported to Cloud Eye.
+You can use Cloud Eye to monitor the running statuses of DB instances. This section describes namespaces, descriptions, and dimensions of metrics to be reported to Cloud Eye.
 
-DB Instance Monitoring Metrics
-------------------------------
+DB Instance Metrics
+-------------------
 
 .. table:: **Table 1** GaussDB(for MySQL) metrics
 

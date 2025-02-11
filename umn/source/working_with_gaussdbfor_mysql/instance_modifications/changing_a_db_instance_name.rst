@@ -8,7 +8,7 @@ Changing a DB Instance Name
 Scenarios
 ---------
 
-You can change the name of a GaussDB(for MySQL) DB instance.
+You can change the name of a GaussDB(for MySQL) instance.
 
 Procedure
 ---------

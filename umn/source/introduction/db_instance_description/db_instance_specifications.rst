@@ -5,7 +5,7 @@
 DB Instance Specifications
 ==========================
 
-GaussDB(for MySQL) instance specifications are listed in the following table and vary according to actual situations.
+GaussDB(for MySQL) instance specifications are listed in the following tables and vary according to actual situations.
 
 .. table:: **Table 1** x86 instance specifications
 

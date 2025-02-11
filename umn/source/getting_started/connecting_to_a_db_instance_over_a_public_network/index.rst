@@ -2,14 +2,14 @@
 
 .. _gaussdb_02_0010:
 
-Connecting to a DB Instance Over a Public Network
+Connecting to a DB Instance over a Public Network
 =================================================
 
 -  :ref:`Overview <gaussdb_02_0016>`
 -  :ref:`Step 1: Create a DB Instance <gaussdb_02_0012>`
 -  :ref:`Step 2: Bind an EIP <gaussdb_02_0015>`
 -  :ref:`Step 3: Configure Security Group Rules <gaussdb_02_0013>`
--  :ref:`Step 4: Connect to a DB Instance Over a Public Network <gaussdb_02_0014>`
+-  :ref:`Step 4: Connect to a DB Instance over a Public Network <gaussdb_02_0014>`
 
 .. toctree::
    :maxdepth: 1

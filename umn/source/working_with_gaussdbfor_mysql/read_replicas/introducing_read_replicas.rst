@@ -8,7 +8,7 @@ Introducing Read Replicas
 Introduction
 ------------
 
-Currently, DB instances support read replicas.
+GaussDB(for MySQL) instances support read replicas.
 
 In read-intensive scenarios, a primary node may be unable to handle the read pressure and service performance may be affected. To offload read pressure on the primary node, you can create one or more read replicas in the same region as the primary node. These read replicas can process a large number of read requests and increase application throughput. You need to separately configure connection addresses for the primary node and each read replica on your applications so that all read requests can be sent to read replicas and write requests to the primary node.
 
@@ -21,7 +21,7 @@ Functions
 
 -  Read replicas support system performance monitoring.
 
-   GaussDB(for MySQL) provides nearly 20 monitoring metrics, including the CPU usage, memory usage, storage space usage, and database connections. You can view these metrics to understand the load of DB instances.
+   GaussDB(for MySQL) provides nearly 20 metrics, including the CPU usage, memory usage, storage space usage, and database connections. You can view these metrics to understand the load of DB instances.
 
 Constraints
 -----------
