@@ -6,7 +6,7 @@ GaussDB (for MySQL) - User Guide
    :maxdepth: 1
 
    introduction/index
-   getting_started_with_gaussdbfor_mysql/index
+   getting_started/index
    working_with_gaussdbfor_mysql/index
    faqs/index
    change_history

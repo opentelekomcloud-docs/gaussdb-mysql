@@ -15,8 +15,8 @@ You can change the vCPUs or memory of a DB instance as required. If the status o
 
 .. important::
 
-   -  Changing the CPU and memory specifications will cause the instance to reboot. To prevent service interruptions, change the instance specifications during off-peak hours.
-   -  To prevent traffic congestion during peak hours, you are advised to reboot the DB instance during off-peak hours.
+   -  Changing the vCPUs and memory will cause the instance to reboot. To prevent service interruptions, change the instance specifications during off-peak hours.
+   -  To prevent traffic congestion during peak hours, you are advised to reboot the instance during off-peak hours.
 
 Procedure
 ---------

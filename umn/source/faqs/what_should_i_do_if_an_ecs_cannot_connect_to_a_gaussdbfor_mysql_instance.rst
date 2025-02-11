@@ -2,12 +2,12 @@
 
 .. _gaussdb_faq_0009:
 
-What Should I Do If an ECS Cannot Connect to a GaussDB(for MySQL) DB Instance?
-==============================================================================
+What Should I Do If an ECS Cannot Connect to a GaussDB(for MySQL) Instance?
+===========================================================================
 
 Perform the following steps to identify the problem:
 
-#. Check whether the ECS and GaussDB(for MySQL) DB instance are located in the same VPC.
+#. Check whether the ECS and DB instance are located in the same VPC.
 
    -  If they are in the same VPC, go to :ref:`2 <gaussdb_faq_0009__en-us_topic_0192953749_l76760374fb794a8d9b961321c13f386d>`.
    -  If they are in different VPCs, create an ECS in the VPC where the DB instance is located.

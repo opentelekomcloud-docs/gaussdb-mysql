@@ -2,12 +2,12 @@
 
 .. _gaussdb_02_0000:
 
-Getting Started with GaussDB(for MySQL)
-=======================================
+Getting Started
+===============
 
 -  :ref:`Connecting to a DB Instance <quick_start>`
--  :ref:`Connecting to a DB instance Over a Private Network <gaussdb_02_0005>`
--  :ref:`Connecting to a DB Instance Over a Public Network <gaussdb_02_0010>`
+-  :ref:`Connecting to a DB Instance over a Private Network <gaussdb_02_0005>`
+-  :ref:`Connecting to a DB Instance over a Public Network <gaussdb_02_0010>`
 
 .. toctree::
    :maxdepth: 1

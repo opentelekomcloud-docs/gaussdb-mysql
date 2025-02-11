@@ -2,7 +2,7 @@
 
 .. _gaussdb_02_0014:
 
-Step 4: Connect to a DB Instance Over a Public Network
+Step 4: Connect to a DB Instance over a Public Network
 ======================================================
 
 GaussDB(for MySQL) is fully compatible with the MySQL protocol. Therefore, you can connect to a DB instance through a common connection or an SSL connection. SSL connections are encrypted.
@@ -110,7 +110,7 @@ Using SSL to Connect to a DB Instance
 
 #. Import the root certificate to the Linux OS on the ECS.
 
-   For details, see :ref:`How Can I Import the Root Certificate to a Windows or Linux OS? <gaussdb_faq_0010>`
+   For details, see :ref:`How Do I Import the SSL Certificate of an RDS Instance to a Windows or Linux Server? <gaussdb_faq_0010>`
 
 #. Connect to a DB instance. The Linux OS is assumed in this example.
 
@@ -125,7 +125,7 @@ Using SSL to Connect to a DB Instance
       +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
       | *<port>*     | Database port. To obtain this parameter, go to the **Basic Information** page of the DB instance. The database port can be found in the **Database Port** field in the **Network Information** area.                                             |
       +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-      | <*userName*> | Username of the GaussDB(for MySQL) database administrator account. The default username is **root**.                                                                                                                                             |
+      | <*userName*> | Username of the GaussDB(for MySQL) administrator account. The default username is **root**.                                                                                                                                                      |
       +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
       | <*caName*>   | SSL certificate file name, which should be stored in the same directory where the command is executed.                                                                                                                                           |
       +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
