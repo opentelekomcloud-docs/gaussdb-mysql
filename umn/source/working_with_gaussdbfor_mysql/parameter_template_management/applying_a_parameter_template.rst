@@ -20,7 +20,7 @@ Procedure
 
 #. Click |image1| in the upper left corner and select a region and a project.
 
-#. Click **Service List**. Under **Database**, click **GaussDB**.
+#. Click **Service List**. Under **Databases**, click **GaussDB(for MySQL)**.
 
 #. On the **Parameter Templates** page, you can apply a default template or a custom template to a target DB instance:
 

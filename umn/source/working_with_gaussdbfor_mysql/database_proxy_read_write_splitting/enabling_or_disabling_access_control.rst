@@ -10,11 +10,11 @@ If load balancing is enabled for a database proxy instance, the security group a
 Enabling Access Control
 -----------------------
 
-#. Log in to the console.
+#. Log in to the management console.
 
 #. Click |image1| in the upper left corner and select a region and a project.
 
-#. Under **Database**, click **GaussDB**. In the navigation pane on the left, click **GaussDB(for MySQL)**.
+#. Click **Service List**. Under **Databases**, click **GaussDB(for MySQL)**.
 
 #. On the **Instances** page, click the instance name to go to the **Basic Information** page.
 
@@ -34,11 +34,11 @@ Enabling Access Control
 Disabling Access Control
 ------------------------
 
-#. Log in to the console.
+#. Log in to the management console.
 
 #. Click |image3| in the upper left corner and select a region and a project.
 
-#. Under **Database**, click **GaussDB**. In the navigation pane on the left, click **GaussDB(for MySQL)**.
+#. Click **Service List**. Under **Databases**, click **GaussDB(for MySQL)**.
 
 #. On the **Instances** page, click the instance name to go to the **Basic Information** page.
 
@@ -46,7 +46,7 @@ Disabling Access Control
 
    Locate the target proxy instance and click |image4| next to the **Access Control** area.
 
-.. |image1| image:: /_static/images/en-us_image_0000001400391461.png
+.. |image1| image:: /_static/images/en-us_image_0000001352219100.png
 .. |image2| image:: /_static/images/en-us_image_0000001405277053.png
-.. |image3| image:: /_static/images/en-us_image_0000001400391461.png
+.. |image3| image:: /_static/images/en-us_image_0000001352219100.png
 .. |image4| image:: /_static/images/en-us_image_0000001405262769.png

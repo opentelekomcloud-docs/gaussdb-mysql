@@ -12,7 +12,7 @@ Constraints
 .. table:: **Table 1** Function constraints
 
    +------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | Function                           | Constraints                                                                                                                                                                                     |
+   | Function                           | Constraint                                                                                                                                                                                      |
    +====================================+=================================================================================================================================================================================================+
    | GaussDB(for MySQL) access          | -  If GaussDB(for MySQL) DB instances are not bound with EIPs, the DB instances must be in the same VPC subnet as the ECSs associated with these instances.                                     |
    |                                    |                                                                                                                                                                                                 |

@@ -5,8 +5,8 @@
 Upgrading the Minor Version of a DB Instance
 ============================================
 
-Scenario
---------
+Scenarios
+---------
 
 GaussDB(for MySQL) supports manual minor version upgrades, which can improve performance, add new functions, and fix bugs.
 
@@ -26,9 +26,9 @@ Procedure
 
 #. Click |image1| in the upper left corner and select a region and a project.
 
-#. Click |image2| in the upper left corner of the page and choose **Database** > **GaussDB**. In the navigation pane on the left, click **GaussDB(for MySQL)**.
+#. Click **Service List**. Under **Databases**, click **GaussDB(for MySQL)**.
 
-#. On the **Instances** page, click the instance name to go to the **Basic Information** page.
+#. On the **Instances** page, click the target instance to go to the **Basic Information** page.
 
 #. In the **DB Instance Information** area, click **Upgrade** in the **DB Engine Version** field.
 
@@ -36,5 +36,4 @@ Procedure
 
    Upon submission: The system upgrades the minor version immediately after your submission of the upgrade request. After the operation is complete, in the **Task Center** page, click **Instant Tasks** and view the information about the upgrade task.
 
-.. |image1| image:: /_static/images/en-us_image_0218527002.png
-.. |image2| image:: /_static/images/en-us_image_0000001480810240.png
+.. |image1| image:: /_static/images/en-us_image_0000001352219100.png
