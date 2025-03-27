@@ -367,7 +367,7 @@ Creating a DB instance
        "version" : "8.0"
      },
      "mode" : "Cluster",
-     "flavor_ref" : "gaussdb.mysql.xlarge.arm.8",
+     "flavor_ref" : "gaussdb.mysql.xlarge.x86.8",
      "vpc_id" : "3cedfc54-b105-4652-a4e0-847b11576b58",
      "subnet_id" : "c1cfa53c-65d3-431e-8552-326bf310c7ad",
      "security_group_id" : "fc577a1a-f202-424a-977f-24faec3fdd55",
@@ -407,7 +407,7 @@ Success.
          "version" : "8.0"
        },
        "mode" : "Cluster",
-       "flavor_ref" : "gaussdb.mysql.xlarge.arm.8",
+       "flavor_ref" : "gaussdb.mysql.xlarge.x86.8",
        "vpc_id" : "3cedfc54-b105-4652-a4e0-847b11576b58",
        "subnet_id" : "c1cfa53c-65d3-431e-8552-326bf310c7ad",
        "security_group_id" : "fc577a1a-f202-424a-977f-24faec3fdd55",

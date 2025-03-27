@@ -105,7 +105,7 @@ Changing instance specifications
    POST https://gaussdb-mysql.eu-de.otc.t-systems.com/v3/054e292c9880d4992f02c0196d3ea468/instances/ba62a0b83a1b42bfab275829d86ac0fdin07/action
    {
      "resize_flavor" : {
-       "spec_code" : "gaussdb.mysql.xlarge.arm.8"
+       "spec_code" : "gaussdb.mysql.xlarge.x86.8"
      }
    }
 

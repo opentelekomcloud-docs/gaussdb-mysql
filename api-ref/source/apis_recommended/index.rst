@@ -5,6 +5,7 @@
 APIs (Recommended)
 ==================
 
+-  :ref:`API Version Queries <en-us_topic_0000002235108869>`
 -  :ref:`Querying Version Information About a DB Engine <gaussdb_04_0001>`
 -  :ref:`Querying Database Specifications <gaussdb_04_0002>`
 -  :ref:`Managing DB Instances <gaussdb_04_0003>`
@@ -21,6 +22,7 @@ APIs (Recommended)
    :maxdepth: 1
    :hidden: 
 
+   api_version_queries/index
    querying_version_information_about_a_db_engine
    querying_database_specifications
    managing_db_instances/index

@@ -2,13 +2,13 @@
 
 .. _gaussdb_10_0006:
 
-GaussDB(for MySQL) Monitoring Metrics
-=====================================
+GaussDB(for MySQL) Metrics
+==========================
 
 Function Description
 --------------------
 
-This section describes namespaces, descriptions, and dimensions of monitoring metrics to be reported to Cloud Eye. You can use APIs provided by Cloud Eye to retrieve monitoring metrics and alarm information generated for GaussDB(for MySQL).
+This section describes namespaces, descriptions, and dimensions of metrics to be reported to Cloud Eye. You can use APIs provided by Cloud Eye to retrieve metrics and alarm information generated for GaussDB(for MySQL).
 
 Namespace
 ---------
@@ -273,7 +273,7 @@ Monitoring Metrics
    |                                                    |                                                |                                                                                                                                                             |                 |                                                      |
    |                                                    |                                                |                                                                                                                                                             |                 | Monitored instance type: GaussDB(for MySQL) instance |
    |                                                    |                                                |                                                                                                                                                             |                 |                                                      |
-   |                                                    |                                                |                                                                                                                                                             |                 | 150 s                                                |
+   |                                                    |                                                |                                                                                                                                                             |                 | 150s                                                 |
    +----------------------------------------------------+------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+------------------------------------------------------+
 
 Dimension

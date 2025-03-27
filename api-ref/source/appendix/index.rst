@@ -9,7 +9,7 @@ Appendix
 -  :ref:`Status Codes <gaussdb_10_0002>`
 -  :ref:`Error Codes <gaussdb_10_0003>`
 -  :ref:`Obtaining a Project ID <gaussdb_10_0004>`
--  :ref:`GaussDB(for MySQL) Monitoring Metrics <gaussdb_10_0006>`
+-  :ref:`GaussDB(for MySQL) Metrics <gaussdb_10_0006>`
 
 .. toctree::
    :maxdepth: 1
@@ -19,4 +19,4 @@ Appendix
    status_codes
    error_codes
    obtaining_a_project_id
-   gaussdbfor_mysql_monitoring_metrics
+   gaussdbfor_mysql_metrics

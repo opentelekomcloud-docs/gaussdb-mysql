@@ -87,17 +87,17 @@ Response Parameters
    +-----------------------+-----------------------+------------------------------------------------------------------------------------------+
    | ram                   | String                | Memory size in GB.                                                                       |
    +-----------------------+-----------------------+------------------------------------------------------------------------------------------+
-   | type                  | String                | Specification type. The value can be **arm**.                                            |
+   | type                  | String                | Specification type. The value is **x86**.                                                |
    +-----------------------+-----------------------+------------------------------------------------------------------------------------------+
    | id                    | String                | Specification ID. The value must be unique.                                              |
    +-----------------------+-----------------------+------------------------------------------------------------------------------------------+
    | spec_code             | String                | Resource specification code. Its value is same as the value of **flavor_ref**.           |
    |                       |                       |                                                                                          |
-   |                       |                       | For example, **gaussdb.mysql.4xlarge.arm.8**                                             |
+   |                       |                       | Example: **gaussdb.mysql.xlarge.x86.8**.                                                 |
    +-----------------------+-----------------------+------------------------------------------------------------------------------------------+
    | version_name          | String                | DB version number.                                                                       |
    +-----------------------+-----------------------+------------------------------------------------------------------------------------------+
-   | instance_mode         | String                | DB instance type. Its value is **Cluster**.                                              |
+   | instance_mode         | String                | DB instance type. Currently, only the cluster type is supported.                         |
    +-----------------------+-----------------------+------------------------------------------------------------------------------------------+
    | az_status             | Map<String,String>    | Status of the AZ where the specification belongs. Its value can be any of the following: |
    |                       |                       |                                                                                          |
@@ -146,11 +146,11 @@ Success.
 
    {
      "flavors" : [ {
-       "vcpus" : "16",
-       "ram" : "128",
-       "type" : "arm",
+       "vcpus" : "4",
+       "ram" : "32",
+       "type" : "x86",
        "id" : "3169caaf-6c2f-41d5-aadd-c8fc3d83597e",
-       "spec_code" : "gaussdb.mysql.4xlarge.arm.8",
+       "spec_code" : "gaussdb.mysql.xlarge.x86.8",
        "instance_mode" : "Cluster",
        "version_name" : "8.0",
        "az_status" : {
