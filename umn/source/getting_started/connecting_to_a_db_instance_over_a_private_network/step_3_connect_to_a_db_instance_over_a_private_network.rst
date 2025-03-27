@@ -2,10 +2,10 @@
 
 .. _gaussdb_02_0009:
 
-Step 3: Connect to a DB Instance Over a Private Network
+Step 3: Connect to a DB Instance over a Private Network
 =======================================================
 
-GaussDB(for MySQL) is fully compatible with the MySQL protocol. You can connect to a DB instance through either a common connection or an SSL connection for enhanced security. SSL connections are encrypted.
+GaussDB(for MySQL) is fully compatible with the MySQL protocol. You can connect to a DB instance through either a common connection or an SSL connection. SSL connections are encrypted.
 
 Prerequisites
 -------------
@@ -31,7 +31,7 @@ Prerequisites
 
    You can use a database client to connect to the DB instance in the Linux or Windows OS.
 
-   -  In the Linux OS, install the MySQL client on the ECS or other device that can access the DB instance. It is recommended that you download a MySQL client running a version later than that of the DB instance.
+   -  In the Linux OS, install the MySQL client on the device that can access GaussDB(for MySQL). It is recommended that you download a MySQL client running a version later than that of the DB instance.
 
       For details about how to obtain and install the MySQL client, see :ref:`How Can I Install the MySQL Client? <gaussdb_faq_0011>`
 
@@ -105,7 +105,7 @@ SSL Connection
 
 #. Import the root certificate to the Linux OS on the ECS.
 
-   For details, see :ref:`How Can I Import the Root Certificate to a Windows or Linux OS? <gaussdb_faq_0010>`
+   For details, see :ref:`How Do I Import the SSL Certificate of an RDS Instance to a Windows or Linux Server? <gaussdb_faq_0010>`
 
 #. Connect to a DB instance. The Linux OS is assumed in this example.
 

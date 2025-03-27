@@ -24,11 +24,11 @@ Procedure
 
 #. Click **Service List**. Under **Databases**, click **GaussDB(for MySQL)**.
 
-#. On the **Instances** page, click the target DB instance to go to the **Basic Information** page.
+#. On the **Instances** page, click the instance name to go to the **Basic Information** page.
 
 #. In the **Network Information** area, click |image2| in the **Database Port** field.
 
-   The GaussDB(for MySQL) database port ranges from 1025 to 65534, excluding 5342, 5343, 5344, 5345, 12017, 20000, 20201, and 20202, which are occupied by the system and cannot be used.
+   The GaussDB(for MySQL) database port ranges from 1025 to 65534, excluding 5342, 5343, 5344, 5345, 12017, 20000, 20201, and 20202, which are reserved by the system.
 
    -  To submit the change, click |image3|.
 

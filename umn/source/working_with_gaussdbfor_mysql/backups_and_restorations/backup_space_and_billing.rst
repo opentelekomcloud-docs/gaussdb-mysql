@@ -30,9 +30,8 @@ The billed space is calculated as follows:
 
 -  Logical space: Total size of the logical space - Logical size of the expired backup file
 -  Physical space: Size of the first full backup file + Total size of subsequent differential backup files
--  Free space: There is free backup storage up to 100% of storage space.
 
-Billed space = Min (Logical space, Physical space) - Free space = Min (Logical space, Physical space) - Storage space
+Billed space = Min (Logical space, Physical space)
 
 Example
 -------
@@ -45,7 +44,7 @@ A backup chain contains seven backups by default. There are 11 backups shown in 
 
    **Figure 1** Backup example
 
-If there is 1,000 MB of backup space and the logical space is 1,000 MB each time, the physical space for the 1st backup is 1,000 MB. If the incremental data size is 100 MB each time, the physical space for the 2nd backup to 7th is 100 MB.
+If the logical space is 1,000 MB each time, the physical space for the 1st backup is 1,000 MB. If the incremental data size is 100 MB each time, the physical space for the 2nd backup to 7th is 100 MB.
 
 A backup chain contains seven backups by default. The physical space for the 8th backup is 1,000 MB because it represents a new backup chain.
 
@@ -59,4 +58,4 @@ Suppose that after the 11th backup was created, and the 1st, 2nd and 3rd backups
 
    Physical space = 1,000 MB + 100 MB x 6 + 1,000 MB + 100 MB x 3 = 2,900 MB
 
--  Total billed space = Min (8,000 MB, 2,900 MB) - 1,000 MB = 1,900 MB
+-  Total billed space = Min (8,000 MB, 2,900 MB) = 2,900 MB

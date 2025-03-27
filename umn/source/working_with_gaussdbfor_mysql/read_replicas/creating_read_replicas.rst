@@ -2,8 +2,8 @@
 
 .. _gaussdb_03_0111:
 
-Creating a Read Replica
-=======================
+Creating Read Replicas
+======================
 
 Scenarios
 ---------

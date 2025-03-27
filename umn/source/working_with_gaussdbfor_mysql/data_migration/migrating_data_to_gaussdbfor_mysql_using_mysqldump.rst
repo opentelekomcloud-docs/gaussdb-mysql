@@ -10,7 +10,7 @@ Preparing for Data Migration
 
 GaussDB(for MySQL) supports public accessibility. You can access GaussDB(for MySQL) through an ECS or EIP.
 
-#. Prepare an ECS in the same VPC subnet as GaussDB(for MySQL) or prepare a device for accessing GaussDB(for MySQL) over a public network.
+#. Prepare an ECS in the same VPC subnet as the GaussDB(for MySQL) instance or bind an EIP to the GaussDB(for MySQL) instance.
 
    -  To connect to a DB instance through an ECS, you must first create an ECS.
 
@@ -39,7 +39,7 @@ Before migrating data to GaussDB(for MySQL), you need to export data first.
    -  The export tool must match the DB engine version.
    -  Database migration is performed offline. Before the migration, you must stop any applications using the source database.
 
-#. Log in to the prepared ECS or device that can access GaussDB(for MySQL) DB instances.
+#. Log in to the prepared ECS or device that can access GaussDB(for MySQL) instances.
 
 #. .. _gaussdb_03_0007__en-us_topic_0171122750_li16251172911136:
 
@@ -88,7 +88,7 @@ Before migrating data to GaussDB(for MySQL), you need to export data first.
 Importing Data
 --------------
 
-You can use a client to connect to a GaussDB(for MySQL) DB instance through an ECS or a device and then import the exported SQL file into that DB instance.
+You can use a client to connect to a GaussDB(for MySQL) instance through an ECS or device and then import the exported SQL file into that instance.
 
 .. important::
 
@@ -96,12 +96,12 @@ You can use a client to connect to a GaussDB(for MySQL) DB instance through an E
 
 #. Import metadata into GaussDB(for MySQL).
 
-   Use the MySQL tool to connect to the GaussDB(for MySQL) DB instance, enter the password, and run the following command to import metadata:
+   Use the MySQL tool to connect to the GaussDB(for MySQL) instance, enter the password, and run the following command to import metadata:
 
    **mysql -f -h** *<DB_ADDRESS>* **-P** <*DB_PORT*> **-u** root **-p <** *<BACKUP_DIR>*\ **/dump-defs.sql**
 
-   -  **DB_ADDRESS** indicates the IP address of the GaussDB(for MySQL) DB instance.
-   -  **DB_PORT** indicates the GaussDB(for MySQL) DB instance port.
+   -  **DB_ADDRESS** indicates the IP address of the GaussDB(for MySQL) instance.
+   -  **DB_PORT** indicates the GaussDB(for MySQL) instance port.
    -  **BACKUP_DIR** indicates the directory where **dump-defs.sql** is stored.
 
    Example:
@@ -114,8 +114,8 @@ You can use a client to connect to a GaussDB(for MySQL) DB instance through an E
 
    **mysql -f -h** *<DB_ADDRESS>* **-P** <*DB_PORT*> **-u** root **-p** **<** *<BACKUP_DIR>*\ **/dump-data.sql**
 
-   -  **DB_ADDRESS** indicates the IP address of the GaussDB(for MySQL) DB instance.
-   -  **DB_PORT** indicates the GaussDB(for MySQL) DB instance port.
+   -  **DB_ADDRESS** indicates the IP address of the GaussDB(for MySQL) instance.
+   -  **DB_PORT** indicates the GaussDB(for MySQL) instance port.
    -  **BACKUP_DIR** indicates the directory where **dump-data.sql** is stored.
 
    Example:

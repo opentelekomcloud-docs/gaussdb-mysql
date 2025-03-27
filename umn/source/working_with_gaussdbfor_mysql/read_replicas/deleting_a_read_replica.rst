@@ -17,7 +17,7 @@ You can manually delete read replicas on the **Instances** page.
 Constraints
 -----------
 
--  You can delete read replicas only when the DB instance has two or more than two read replicas. A GaussDB(for MySQL) DB instance must have at least one read replica.
+-  You can only delete a read replica when the DB instance has two or more read replicas.
 -  DB instances cannot be deleted when operations are being performed on them. They can be deleted only after the operations are completed.
 
 Procedure
@@ -29,9 +29,9 @@ Procedure
 
 #. Click **Service List**. Under **Databases**, click **GaussDB(for MySQL)**.
 
-#. On the **Instances** page, click the target DB instance.
+#. On the **Instances** page, click the instance name.
 
-#. At the bottom of the **Basic Information** page, locate the read replicas to be deleted and choose **More** > **Delete** in the **Operation** column.
+#. At the bottom of the **Basic Information** page, locate the read replica to be deleted and choose **More** > **Delete** in the **Operation** column.
 
    For high availability reasons, the system reserves an available read replica. The read replica cannot be deleted until the associated DB instance is deleted.
 

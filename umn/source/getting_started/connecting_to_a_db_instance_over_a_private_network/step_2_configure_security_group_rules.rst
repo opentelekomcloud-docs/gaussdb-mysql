@@ -12,10 +12,10 @@ A security group is a collection of access control rules for ECSs and DB instanc
 
 Check whether the ECS and DB instance are in the same security group.
 
--  If they are in the same security group, they can communicate with each other by default. No security group rule needs to be configured. Go to :ref:`Step 3: Connect to a DB Instance Over a Private Network <gaussdb_02_0009>`.
+-  If they are in the same security group, they can communicate with each other by default. No security group rule needs to be configured. Go to :ref:`Step 3: Connect to a DB Instance over a Private Network <gaussdb_02_0009>`.
 -  If they are in different security groups, you need to configure security group rules for the ECS and DB instance, respectively.
 
-   -  DB instance: Configure an inbound rule for the security group to which the DB instance is associated.
+   -  DB instance: Configure an inbound rule for the security group associated with the DB instance.
    -  ECS: The default security group rule allows all outgoing data packets. In this scenario, you do not need to configure a security rule for the ECS. If not all outbound traffic is allowed in the security group, you need to configure an outbound rule for the ECS.
 
 Precautions
@@ -31,7 +31,7 @@ The default security group rule allows all outgoing data packets. If an ECS and 
 
    To ensure the security of your data and DB instances, you are advised to use the principle of least privilege for database access. Change the database port (default value: **3306**), and set the IP address to the remote server's address or an IP address on the remote server's smallest subnet so that access to the remote server is limited.
 
-   If you use **0.0.0.0/0**, all IP addresses are enabled to access DB instances in the security group.
+   The default value of **Source** is **0.0.0.0/0**, indicating that GaussDB(for MySQL) instances in the security group can be accessed from any IP address.
 
 Procedure
 ---------

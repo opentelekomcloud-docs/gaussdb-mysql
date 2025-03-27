@@ -8,7 +8,7 @@ Binding and Unbinding an EIP
 Scenarios
 ---------
 
-By default, a GaussDB(for MySQL) DB instance is not publicly accessible (not bound with an EIP) after being created. You can bind an EIP to the DB instance for public accessibility and can unbind the EIP from the DB instance as required.
+By default, a GaussDB(for MySQL) instance is not publicly accessible (not bound with an EIP) after being created. You can bind an EIP to the instance for public accessibility and can unbind the EIP from the instance as required.
 
 .. important::
 
@@ -31,7 +31,7 @@ Binding an EIP
 
 #. Click **Service List**. Under **Databases**, click **GaussDB(for MySQL)**.
 
-#. On the **Instances** page, click the target DB instance. The **Basic Information** page is displayed.
+#. On the **Instances** page, click the instance name to go to the **Basic Information** page.
 
 #. In the **Network Information** area, click **Bind** in the **Public IP Address (EIP)** field.
 

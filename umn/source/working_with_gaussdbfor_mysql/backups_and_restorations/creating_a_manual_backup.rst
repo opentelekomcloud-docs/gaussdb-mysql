@@ -33,7 +33,7 @@ Method 2
 #. Log in to the management console.
 #. Click |image2| in the upper left corner and select a region and a project.
 #. Click **Service List**. Under **Databases**, click **GaussDB(for MySQL)**.
-#. On the **Instances** page, click the target DB instance.
+#. On the **Instances** page, click the instance name.
 #. On the **Backups** page, click **Create Backup**. In the displayed dialog box, enter a backup name and a description, and click **OK**. If you want to cancel the backup creation task, click **Cancel**.
 
    -  The backup name must consist of 4 to 64 characters and start with a letter. It can contain only uppercase letters, lowercase letters, digits, hyphens (-), and underscores (_).

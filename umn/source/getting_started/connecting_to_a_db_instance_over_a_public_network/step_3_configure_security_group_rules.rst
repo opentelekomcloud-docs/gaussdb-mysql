@@ -27,7 +27,7 @@ The default security group rule allows all outgoing data packets. If an ECS and 
 
    To ensure the security of your data and DB instances, you are advised to use the principle of least privilege for database access. Change the database port (default value: **3306**), and set the IP address to the remote server's address or an IP address on the remote server's smallest subnet so that access to the remote server is limited.
 
-   If you use **0.0.0.0/0**, all IP addresses are enabled to access DB instances in the security group.
+   The default value of **Source** is **0.0.0.0/0**, indicating that GaussDB(for MySQL) instances in the security group can be accessed from any IP address.
 
 Procedure
 ---------

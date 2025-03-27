@@ -5,4 +5,4 @@
 What's the Maximum Data Volume Supported by GaussDB(for MySQL)?
 ===============================================================
 
-GaussDB(for MySQL) supports up to 128 TB of data and can easily handle large amounts of data requests.
+GaussDB(for MySQL) can store up to 128 TB of data.
