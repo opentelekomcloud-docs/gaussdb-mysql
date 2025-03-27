@@ -338,10 +338,10 @@ Success.
            "az_code": "cn-cmcc1a-01",
            "region_code": "cn-cmcc1",
            "flavor_id": "3169caaf-6c2f-41d5-aadd-c8fc3d83597e",
-           "flavor_ref": "gaussdb.mysql.4xlarge.arm.8",
+           "flavor_ref": "gaussdb.mysql.xlarge.x86.8",
            "max_connections": null,
-           "vcpus": "16",
-           "ram": "128",
+           "vcpus": "4",
+           "ram": "32",
            "need_restart": false,
            "priority": 1
          },
@@ -361,10 +361,10 @@ Success.
            "az_code": "cn-cmcc1a-01",
            "region_code": "cn-cmcc1",
            "flavor_id": "3169caaf-6c2f-41d5-aadd-c8fc3d83597e",
-           "flavor_ref": "gaussdb.mysql.4xlarge.arm.8",
+           "flavor_ref": "gaussdb.mysql.xlarge.x86.8",
            "max_connections": null,
-           "vcpus": "16",
-           "ram": "128",
+           "vcpus": "4",
+           "ram": "32",
            "need_restart": false,
            "priority": 1
          }

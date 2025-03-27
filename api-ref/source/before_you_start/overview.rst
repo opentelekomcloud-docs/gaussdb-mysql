@@ -5,7 +5,7 @@
 Overview
 ========
 
-GaussDB(for MySQL) is a MySQL-compatible, enterprise-grade distributed database service. It uses a compute-storage decoupled architecture and supports up to 128 TB of storage. With GaussDB(for MySQL), there is no need to do sharding, and no need to worry about data loss. It provides superior performance of commercial databases at the price of open-source databases.
+GaussDB(for MySQL) is a MySQL-compatible, enterprise-grade distributed database service. It decouples compute from storage and supports up to 128 TB of storage per instance. With GaussDB(for MySQL), there is no need to deal with sharding, and no need to worry about data loss. It provides the high availability and superior performance of commercial databases at the price of open-source databases.
 
 .. note::
 
