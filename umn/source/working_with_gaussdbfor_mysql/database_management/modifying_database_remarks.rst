@@ -16,7 +16,7 @@ Procedure
 #. Log in to the management console.
 #. Click |image1| in the upper left corner and select a region and a project.
 #. Click **Service List**. Under **Databases**, click **GaussDB(for MySQL)**.
-#. On the **Instances** page, click the target DB instance.
+#. On the **Instances** page, click the instance name.
 #. In the navigation pane, choose **Databases**.
 #. Locate the target database and click |image2| in the **Remarks** column.
 

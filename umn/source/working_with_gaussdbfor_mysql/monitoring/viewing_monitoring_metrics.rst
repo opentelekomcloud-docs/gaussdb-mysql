@@ -38,14 +38,14 @@ Procedure
 
 #. Click **Service List**. Under **Databases**, click **GaussDB(for MySQL)**.
 
-#. On the **Instances** page, locate the target DB instance and click **View Metric** in the **Operation** column to go to the Cloud Eye console.
+#. On the **Instances** page, locate the target DB instance and click **View Metrics** in the **Operation** column to go to the Cloud Eye console.
 
-   You can use either of the following methods to view monitoring metrics:
+   You can use either of the following methods to view metrics:
 
-   -  Click the target DB instance. On the displayed **Basic Information** page, click **View Metric** in the upper right corner of the page to go to the Cloud Eye console.
-   -  At the bottom part of the **Basic Information** page, locate the target read replica and click **View Metric** in the **Operation** column to go to the Cloud Eye console.
+   -  Click the target DB instance. On the displayed **Basic Information** page, click **View Metrics** in the upper right corner of the page to go to the Cloud Eye console.
+   -  At the bottom part of the **Basic Information** page, locate the target read replica and click **View Metrics** in the **Operation** column to go to the Cloud Eye console.
 
-#. On the Cloud Eye console, view DB instance monitoring metrics.
+#. On the Cloud Eye console, view DB instance metrics.
 
    Cloud Eye can monitor performance metrics from the last 1 hour, last 3 hours, last 12 hours, last 24 hours or last 7 days.
 

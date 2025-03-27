@@ -31,7 +31,7 @@ Binding an EIP
 
 #. Click **Service List**. Under **Databases**, click **GaussDB(for MySQL)**.
 
-#. On the **Instances** page, click the target DB instance. The **Basic Information** page is displayed.
+#. On the **Instances** page, click the instance name to go to the **Basic Information** page.
 
 #. In the **Network Information** area, click **Bind** in the **Public IP Address (EIP)** field.
 

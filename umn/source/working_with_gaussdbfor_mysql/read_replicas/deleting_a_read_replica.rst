@@ -29,9 +29,9 @@ Procedure
 
 #. Click **Service List**. Under **Databases**, click **GaussDB(for MySQL)**.
 
-#. On the **Instances** page, click the target DB instance.
+#. On the **Instances** page, click the instance name.
 
-#. At the bottom of the **Basic Information** page, locate the read replicas to be deleted and choose **More** > **Delete** in the **Operation** column.
+#. At the bottom of the **Basic Information** page, locate the read replica to be deleted and choose **More** > **Delete** in the **Operation** column.
 
    For high availability reasons, the system reserves an available read replica. The read replica cannot be deleted until the associated DB instance is deleted.
 

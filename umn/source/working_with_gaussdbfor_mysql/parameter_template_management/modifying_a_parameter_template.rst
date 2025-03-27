@@ -54,7 +54,7 @@ Modifying Instance Parameters
 
 #. Click **Service List**. Under **Databases**, click **GaussDB(for MySQL)**.
 
-#. On the **Instances** page, click the target DB instance. The **Basic Information** page is displayed.
+#. On the **Instances** page, click the instance name.
 
 #. In the navigation pane on the left, choose **Parameters**. On the displayed page, modify parameters as required.
 

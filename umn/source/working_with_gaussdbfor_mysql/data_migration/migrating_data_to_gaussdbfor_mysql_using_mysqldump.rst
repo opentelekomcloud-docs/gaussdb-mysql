@@ -10,7 +10,7 @@ Preparing for Data Migration
 
 GaussDB(for MySQL) supports public accessibility. You can access GaussDB(for MySQL) through an ECS or EIP.
 
-#. Prepare an ECS in the same VPC subnet as GaussDB(for MySQL) or prepare a device for accessing GaussDB(for MySQL) over a public network.
+#. Prepare an ECS in the same VPC subnet as the GaussDB(for MySQL) instance or bind an EIP to the GaussDB(for MySQL) instance.
 
    -  To connect to a DB instance through an ECS, you must first create an ECS.
 

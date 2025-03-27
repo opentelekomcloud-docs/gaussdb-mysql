@@ -33,7 +33,7 @@ Method 1
 
 #. Click **Service List**. Under **Databases**, click **GaussDB(for MySQL)**.
 
-#. On the **Instances** page, locate the target DB instance and choose **More** > **Reset Password** in the **Operation** column.
+#. On the **Instances** page, locate the instance for which you want to change the password and choose **More** > **Reset Password** in the **Operation** column.
 
 #. Enter a new password and confirm the password.
 
@@ -55,7 +55,7 @@ Method 2
 
 #. Click **Service List**. Under **Databases**, click **GaussDB(for MySQL)**.
 
-#. On the **Instances** page, click the target DB instance. The **Basic Information** page is displayed.
+#. On the **Instances** page, click the instance name to go to the **Basic Information** page.
 
 #. In the **DB Instance Information** area, click **Reset Password** in the **Administrator** field. In the displayed dialog box, enter a new password and confirm the password.
 
